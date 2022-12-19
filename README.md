@@ -18,7 +18,7 @@ The TSV file can be easily read into a Pandas DataFrame using the following code
 ```python
 import pandas as pd
 
-url = 'https://github.com/giswqs/aws-open-data-geo/raw/master/aws_geo_datasets.tsv'
+url = 'https://github.com/giswqs/aws-open-data/raw/master/aws_open_datasets.tsv'
 df = pd.read_csv(url, sep='\t')
 df.head()
 ```
