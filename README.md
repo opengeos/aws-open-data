@@ -1,5 +1,9 @@
 # aws-open-data
 
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/giswqs/aws-open-data/blob/master/aws_open_datasets.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/giswqs/aws-open-data/HEAD?labpath=aws_open_datasets.ipynb)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Introduction
 
 The [AWS Open Data](https://registry.opendata.aws/) program hosts a lot of publicly available datasets. This repo compiles the list of all datasets on AWS as a CSV file and as a JSON file, making it easier to find and use them programmatically. The list is updated daily.
@@ -27,3 +31,4 @@ df.head()
 
 - A list of open geospatial datasets on AWS: [aws-open-data-geo](https://github.com/giswqs/aws-open-data-geo)
 - A list of AWS open geospatial datasets with a STAC endpoint: [aws-open-data-stac](https://github.com/giswqs/aws-open-data-stac)
+- A list of STAC endpoints from stacindex.org: [stac-index-catalogs](https://github.com/giswqs/stac-index-catalogs)
