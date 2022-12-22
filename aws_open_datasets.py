@@ -1,3 +1,4 @@
+import json
 import os
 import shutil
 import yaml
@@ -37,7 +38,6 @@ for file in files:
 
         tags = dataset.get("Tags", [])
         name = dataset.get("Name", "")
-
 
         basename = os.path.basename(file)
         out_file = os.path.join("datasets", basename)
@@ -83,14 +83,14 @@ for file in files:
                 .replace("\n", "")[:max_chars]
             )
             item["Contact"] = (
-                dataset["Contact"]
-                .replace("<br/>", "")
-                .replace("\n", "")[:max_chars]
+                dataset["Contact"].replace("<br/>", "").replace("\n", "")[:max_chars]
             )
             item["ManagedBy"] = dataset["ManagedBy"].replace("\n", "")[:max_chars]
-            item["UpdateFrequency"] = dataset["UpdateFrequency"].replace("\n", "")[:max_chars]
+            item["UpdateFrequency"] = dataset["UpdateFrequency"].replace("\n", "")[
+                :max_chars
+            ]
             item["License"] = dataset["License"].replace("\n", "")[:max_chars]
-            item["Tags"] = dataset["Tags"]
+            item["Tags"] = ', '.join(dataset["Tags"])
 
             datasets.append(item)
 
@@ -100,4 +100,8 @@ print(f"Total number of datasets: {len(datasets)}")
 df = pd.DataFrame(datasets)
 df = df.sort_values(by="Name")
 df.to_csv("aws_open_datasets.tsv", index=False, sep="\t")
-df.to_json("aws_open_datasets.json", orient="records", indent=4)
+
+data = json.loads(df.to_json(orient="records"))
+
+with open("aws_open_datasets.json", "w") as f:
+    json.dump(data, f, indent=4)
