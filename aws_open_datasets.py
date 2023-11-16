@@ -69,10 +69,7 @@ def generate_datasets(files, max_chars=80, sep_tags=False):
 
                 item = {}
 
-                if names[name] > 1:
-                    item["Name"] = f"{name} - {resource['Description']}"
-                else:
-                    item["Name"] = name
+                item["Name"] = name
 
                 for key in resource:
                     item[key] = resource[key]
