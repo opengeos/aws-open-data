@@ -22,11 +22,11 @@ DataAtWork:
     - Title: Pre-touch sensing for sequential manipulation
       URL: https://ieeexplore.ieee.org/abstract/document/7989594
       AuthorName: Boling Yang, Patrick Lancaster, Joshua R. Smith
-      AuthorURL: https://sensor.cs.washington.edu/jrs.html
+      AuthorURL: https://sensor.cs.washington.edu/joshua-r-smith-phd
     - Title: "The Closure Signature: A Functional Approach to Model Underactuated Compliant Robotic Hands"
       URL: https://ieeexplore.ieee.org/abstract/document/8304743
       AuthorName: Maria Pozzi, Gionata Salvietti, João Bimbo, Monica Malvezzi, Domenico Prattichizzo
-      AuthorURL: http://www.dii.unisi.it/~domenico/
+      AuthorURL: http://www3.diism.unisi.it/~domenico/
     - Title: "Label Fusion: A Pipeline for Generating Ground Truth Labels for Real RGBD Data of Cluttered Scenes"
       URL: https://ieeexplore.ieee.org/abstract/document/8460950
       AuthorName: Pat Marion, Peter R. Florence, Lucas Manuelli, Russ Tedrake
