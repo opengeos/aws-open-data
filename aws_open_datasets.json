@@ -3405,7 +3405,7 @@
             "food security"
         ],
         "Explore": [
-            "[Browse Bucket](https://alliance-artemis-imagesafari.s3.amazonaws.com/index.html#ImageSafari/)"
+            "[Browse Bucket](https://alliance-artemis-imagesafari.s3.us-west-2.amazonaws.com/?prefix=ImageSafari/)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -3469,7 +3469,7 @@
             "food security"
         ],
         "Explore": [
-            "[Browse Bucket](https://alliance-artemis-imagesafari.s3.amazonaws.com/index.html#Artemis/)"
+            "[Browse Bucket](https://alliance-artemis-imagesafari.s3.us-west-2.amazonaws.com/?prefix=Artemis/)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -14236,7 +14236,7 @@
         "Documentation": "https://dynamical.org/catalog/",
         "Contact": "feedback@dynamical.org",
         "ManagedBy": "[dynamical.org](https://dynamical.org)",
-        "UpdateFrequency": "ECMWF IFS ENS forecast, 15 day, 0.25 degree: Forecasts initialized every 24 hours",
+        "UpdateFrequency": "ECMWF IFS ENS forecast, 15 day, 0.25 degree: Forecasts initialized every 24 hours; ECMWF IFS ENS forecast, 46 day, daily, 1.5 degree: Forecasts initialized every 24 hours; ECMWF IFS ENS forecast, 46 day, 6 hourly, 1.5 degree: Forecasts initialized every 24 hours",
         "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
         "Tags": [
             "aws-pds",
@@ -14262,7 +14262,7 @@
         "Documentation": "https://dynamical.org/catalog/",
         "Contact": "feedback@dynamical.org",
         "ManagedBy": "[dynamical.org](https://dynamical.org)",
-        "UpdateFrequency": "ECMWF IFS ENS forecast, 15 day, 0.25 degree: Forecasts initialized every 24 hours",
+        "UpdateFrequency": "ECMWF IFS ENS forecast, 15 day, 0.25 degree: Forecasts initialized every 24 hours; ECMWF IFS ENS forecast, 46 day, daily, 1.5 degree: Forecasts initialized every 24 hours; ECMWF IFS ENS forecast, 46 day, 6 hourly, 1.5 degree: Forecasts initialized every 24 hours",
         "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
         "Tags": [
             "aws-pds",
