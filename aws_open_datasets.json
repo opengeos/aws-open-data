@@ -2002,7 +2002,7 @@
     {
         "Name": "Aerial Imagery of Canada",
         "Description": "RGB-NIR aerial orthophoto imagery mosaic covering the full extent of Banff National Park, Ya Ha Tinda Ranch, and a 1 km buffer at 15 cm, collected on August 21st to 23rd, 2025 / Mosaique d'orthophoto a\u00e9rienne RVB-PIR couvrant l'ensemble du parc national Banff, le ranch Ya Ha Tinda ainsi qu'une zone tampon de 1 km \u00e0 une r\u00e9solution de 15cm, aquise du 21 au 23 ao\u00fbt 2025",
-        "ARN": "arn:aws:s3:::aerial-imagery-canada/national-parks/banff/",
+        "ARN": "arn:aws:s3:::aerial-imagery-canada/national-parks/banff-national-park/",
         "Region": "ca-central-1",
         "Type": "S3 Bucket",
         "Documentation": "[National Air Photo Library / Phototh\u00e8que nationale de l'air](https://ressources-naturelles.canada.ca/carte-outils-publications/imagerie-satellitaire-donnees-elevation-photos-aeriennes/photographies-aeriennes/phototheque-nationale-lair)",
@@ -14182,7 +14182,7 @@
         "Documentation": "https://dynamical.org/catalog/",
         "Contact": "feedback@dynamical.org",
         "ManagedBy": "[dynamical.org](https://dynamical.org)",
-        "UpdateFrequency": "ECMWF AIFS Single forecast: Forecasts initialized every 6 hours",
+        "UpdateFrequency": "ECMWF AIFS Single forecast: Forecasts initialized every 6 hours; ECMWF AIFS Single forecast, virtual: Forecasts initialized every 6 hours",
         "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
         "Tags": [
             "aws-pds",
@@ -14210,7 +14210,7 @@
         "Documentation": "https://dynamical.org/catalog/",
         "Contact": "feedback@dynamical.org",
         "ManagedBy": "[dynamical.org](https://dynamical.org)",
-        "UpdateFrequency": "ECMWF AIFS Single forecast: Forecasts initialized every 6 hours",
+        "UpdateFrequency": "ECMWF AIFS Single forecast: Forecasts initialized every 6 hours; ECMWF AIFS Single forecast, virtual: Forecasts initialized every 6 hours",
         "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
         "Tags": [
             "aws-pds",
