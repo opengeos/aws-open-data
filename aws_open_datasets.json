@@ -15402,12 +15402,12 @@
         "Host": null
     },
     {
-        "Name": "EPA Hourly Prognostic Meteorological Data ",
+        "Name": "EPA Hourly Prognostic Meteorological Data",
         "Description": "The WRF output are stored as uncompressed netcdf/hdf5 formatted files in  directories corresponding to the specific years of interest The model-obs paired files are stored as comma-delimited files in the year-specific directories",
         "ARN": "arn:aws:s3:::epa-hourly-prognostic-meteorology",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
-        "Documentation": "2022 WRF Modeling TSD:  https://bit.ly/2022WRF",
+        "Documentation": "2017 WRF Modeling TSD: https://bit.ly/4AHmsDx 2022 WRF Modeling TSD:  https://bit.ly/2022WRF",
         "Contact": "Misenis.Chris@epa.gov",
         "ManagedBy": "U.S. Environmental Protection Agency (https://www.epa.gov)",
         "UpdateFrequency": "Annually",
@@ -15429,12 +15429,12 @@
         "Host": null
     },
     {
-        "Name": "EPA Hourly Prognostic Meteorological Data ",
+        "Name": "EPA Hourly Prognostic Meteorological Data",
         "Description": "Notification for the EPA Hourly Prognostic Meteorological Data bucket",
         "ARN": "arn:aws:sns:us-east-1:127085394039:epa-hourly-prognostic-meteorology-object_created",
         "Region": "us-east-1",
         "Type": "SNS Topic",
-        "Documentation": "2022 WRF Modeling TSD:  https://bit.ly/2022WRF",
+        "Documentation": "2017 WRF Modeling TSD: https://bit.ly/4AHmsDx 2022 WRF Modeling TSD:  https://bit.ly/2022WRF",
         "Contact": "Misenis.Chris@epa.gov",
         "ManagedBy": "U.S. Environmental Protection Agency (https://www.epa.gov)",
         "UpdateFrequency": "Annually",
