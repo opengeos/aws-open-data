@@ -9231,7 +9231,7 @@
         "Contact": "maintainers@confusius.tools",
         "ManagedBy": "[ConfUSIus](https://confusius.tools/)",
         "UpdateFrequency": "Updated as new openly redistributable functional ultrasound imaging datasets or corrected metadata are incorporated into the ConfUSIus dataset collection.",
-        "License": "Licenses vary by source dataset and include CC BY 4.0, CC0 1.0, CC BY-NC 4.0, and CC BY-NC-SA 4.0. Users must comply with the license and citation requirements for each source dataset. See the documentation for per-dataset license and provenance details.",
+        "License": "Licenses vary by source dataset and include CC BY 4.0, CC0 1.0, and CC BY-NC 4.0. Users must comply with the license and citation requirements for each source dataset. See the documentation for per-dataset license and provenance details.",
         "Tags": [
             "aws-pds",
             "biology",
@@ -9262,7 +9262,7 @@
         "Contact": "maintainers@confusius.tools",
         "ManagedBy": "[ConfUSIus](https://confusius.tools/)",
         "UpdateFrequency": "Updated as new openly redistributable functional ultrasound imaging datasets or corrected metadata are incorporated into the ConfUSIus dataset collection.",
-        "License": "Licenses vary by source dataset and include CC BY 4.0, CC0 1.0, CC BY-NC 4.0, and CC BY-NC-SA 4.0. Users must comply with the license and citation requirements for each source dataset. See the documentation for per-dataset license and provenance details.",
+        "License": "Licenses vary by source dataset and include CC BY 4.0, CC0 1.0, and CC BY-NC 4.0. Users must comply with the license and citation requirements for each source dataset. See the documentation for per-dataset license and provenance details.",
         "Tags": [
             "aws-pds",
             "biology",
