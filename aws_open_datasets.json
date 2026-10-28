@@ -198368,8 +198368,8 @@
     },
     {
         "Name": "NASA pace Project",
-        "Description": "SPL1AP v002 - Each Level-1A (L1A) granule incorporates all radiometer data downlinked from the Soil Moisture Active Passive (SMAP) spacecraft for one specific half orbit The data are scaled instrument counts consisting of the first four raw moments of the fullband channel (vertical and horizontal polarizations); the complex cross-correlations of the fullband channel; and the 16 subband channels (vertical and horizontal polarizations)",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SMAP/SPL1AP/002",
+        "Description": "NSIDC-0786 v1 - This data set provides twice-daily enhanced-resolution radar backscatter images from 14 GHz NASA Scatterometer (NSCAT) observations by applying the Scatterometer Image Reconstruction with Filtering (SIRF) algorithm The algorithm incorporates a median filter and a simplified spatial response function",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SMAP-Related/NSIDC-0786/1",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://nsidc.org/data/aq3_tb/versions/5",
@@ -198568,8 +198568,33 @@
     },
     {
         "Name": "NASA pace Project",
-        "Description": "NSIDC-0786 v1 - This data set provides twice-daily enhanced-resolution radar backscatter images from 14 GHz NASA Scatterometer (NSCAT) observations by applying the Scatterometer Image Reconstruction with Filtering (SIRF) algorithm The algorithm incorporates a median filter and a simplified spatial response function",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SMAP-Related/NSIDC-0786/1",
+        "Description": "SPL1AP v002 - Each Level-1A (L1A) granule incorporates all radiometer data downlinked from the Soil Moisture Active Passive (SMAP) spacecraft for one specific half orbit The data are scaled instrument counts consisting of the first four raw moments of the fullband channel (vertical and horizontal polarizations); the complex cross-correlations of the fullband channel; and the 16 subband channels (vertical and horizontal polarizations)",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SMAP/SPL1AP/002",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://nsidc.org/data/aq3_tb/versions/5",
+        "Contact": "https://earthdata.nasa.gov/contact",
+        "ManagedBy": "NASA",
+        "UpdateFrequency": "Varies by dataset",
+        "License": "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "ice",
+            "oceans",
+            "radar",
+            "satellite imagery",
+            "soil moisture"
+        ],
+        "Explore": null,
+        "RequesterPays": false,
+        "ControlledAccess": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials",
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NASA pace Project",
+        "Description": "SMAP_L1_L3_ANC_SATELLITE v1 - This ancillary SMAP product contains two dynamic data sets describing 1) the attitude and 2) the trajectory of the SMAP satellite The data files are generated using quaternions from the SMAP spacecraft and inputs from earth receiving stations, respectively",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SMAP-ANC/SMAP_L1_L3_ANC_SATELLITE/1",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://nsidc.org/data/aq3_tb/versions/5",
@@ -198613,58 +198638,6 @@
         "Explore": null,
         "RequesterPays": false,
         "ControlledAccess": "https://archive.podaac.earthdata.nasa.gov/s3credentials",
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NASA pace Project",
-        "Description": "SMAP_L1_L3_ANC_SATELLITE v1 - This ancillary SMAP product contains two dynamic data sets describing 1) the attitude and 2) the trajectory of the SMAP satellite The data files are generated using quaternions from the SMAP spacecraft and inputs from earth receiving stations, respectively",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SMAP-ANC/SMAP_L1_L3_ANC_SATELLITE/1",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://nsidc.org/data/aq3_tb/versions/5",
-        "Contact": "https://earthdata.nasa.gov/contact",
-        "ManagedBy": "NASA",
-        "UpdateFrequency": "Varies by dataset",
-        "License": "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
-        "Tags": [
-            "aws-pds",
-            "ice",
-            "oceans",
-            "radar",
-            "satellite imagery",
-            "soil moisture"
-        ],
-        "Explore": null,
-        "RequesterPays": false,
-        "ControlledAccess": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials",
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NASA sentinel-1 Project",
-        "Description": "NSIDC-0727 v5 - This data set, part of the NASA Making Earth System Data Records for Use in Research Environments (MEaSUREs) Program, contains quarterly (three-month interval) ice velocity mosaics for the Greenland Ice Sheet This data set is derived from Synthetic Aperture Radar (SAR) data, obtained by TerraSAR-X/TanDEM-X and Sentinel-1A and -1B, and from optical imagery acquired by Landsat 8 and Landsat 9",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/MEASURES/NSIDC-0727/5",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/sentinel-1",
-        "Contact": "https://earthdata.nasa.gov/contact",
-        "ManagedBy": "NASA",
-        "UpdateFrequency": "Varies by dataset",
-        "License": "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "elevation",
-            "ice",
-            "oceans",
-            "radar",
-            "satellite imagery",
-            "soil moisture"
-        ],
-        "Explore": null,
-        "RequesterPays": false,
-        "ControlledAccess": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials",
         "AccountRequired": null,
         "Host": null
     },
@@ -198724,8 +198697,8 @@
     },
     {
         "Name": "NASA sentinel-1 Project",
-        "Description": "NSIDC-0766 v2 - This data set, part of the NASA Making Earth System Data Records for Use in Research Environments (MEaSUREs) Program, contains 6 and 12 day surface velocity estimates for the Greenland Ice Sheet and periphery Velocities are derived from images acquired by the European Space Agency (ESA) Copernicus Sentinel-1A and Sentinel-1B satellites",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/MEASURES/NSIDC-0766/2",
+        "Description": "NSIDC-0725 v5 - This data set, part of the NASA Making Earth System Data Records for Use in Research Environments (MEaSUREs) program, contains annual ice velocity mosaics for the Greenland Ice Sheet Velocities are derived from synthetic aperture radar (SAR) data, obtained by TerraSAR-X/TanDEM-X and Sentinel-1A and -1B, and from optical imagery acquired by Landsat 8 and Landsat 9",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/MEASURES/NSIDC-0725/5",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/sentinel-1",
@@ -198778,8 +198751,8 @@
     },
     {
         "Name": "NASA sentinel-1 Project",
-        "Description": "NSIDC-0731 v5 - This data set, part of the NASA Making Earth System Data Records for Use in Research Environments (MEaSUREs) Program, contains monthly ice velocity mosaics for the Greenland Ice Sheet The data are derived from Synthetic Aperture Radar (SAR) data, obtained by TerraSAR-X/TanDEM-X and Sentinel-1A and -1B, and from optical imagery acquired by Landsat 8 and Landsat 9",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/MEASURES/NSIDC-0731/5",
+        "Description": "NSIDC-0727 v5 - This data set, part of the NASA Making Earth System Data Records for Use in Research Environments (MEaSUREs) Program, contains quarterly (three-month interval) ice velocity mosaics for the Greenland Ice Sheet This data set is derived from Synthetic Aperture Radar (SAR) data, obtained by TerraSAR-X/TanDEM-X and Sentinel-1A and -1B, and from optical imagery acquired by Landsat 8 and Landsat 9",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/MEASURES/NSIDC-0727/5",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/sentinel-1",
@@ -198832,62 +198805,8 @@
     },
     {
         "Name": "NASA sentinel-1 Project",
-        "Description": "NSIDC-0723 v4 - This data set, part of the NASA Making Earth System Data Records for Use in Research Environments (MEaSUREs) Program, consists of 6-day and 12-day 50 m resolution image mosaics of the Greenland coastline and ice sheet periphery The mosaics are derived from C-band Synthetic Aperture Radar (C-SAR) acquired by the Copernicus Sentinel-1A, -1B, and -1C satellites",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/MEASURES/NSIDC-0723/4",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/sentinel-1",
-        "Contact": "https://earthdata.nasa.gov/contact",
-        "ManagedBy": "NASA",
-        "UpdateFrequency": "Varies by dataset",
-        "License": "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "elevation",
-            "ice",
-            "oceans",
-            "radar",
-            "satellite imagery",
-            "soil moisture"
-        ],
-        "Explore": null,
-        "RequesterPays": false,
-        "ControlledAccess": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials",
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NASA sentinel-1 Project",
-        "Description": "NSIDC-0642 v2 - This data set, part of the NASA Making Earth System Data Records for Use in Research Environments (MEaSUREs) program, consists of annual, digitized (polyline) ice front positions for 239 outlet glaciers in Greenland Ice front positions are derived from Sentinel-1A, Sentinel-1B, and RADARSAT-1 synthetic aperture radar (SAR) mosaics, plus imagery from Landsat 1 through Landsat 5 and Landsat 7 and Landsat 8",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/MEASURES/NSIDC-0642/2",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/sentinel-1",
-        "Contact": "https://earthdata.nasa.gov/contact",
-        "ManagedBy": "NASA",
-        "UpdateFrequency": "Varies by dataset",
-        "License": "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "elevation",
-            "ice",
-            "oceans",
-            "radar",
-            "satellite imagery",
-            "soil moisture"
-        ],
-        "Explore": null,
-        "RequesterPays": false,
-        "ControlledAccess": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials",
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NASA sentinel-1 Project",
-        "Description": "NSIDC-0725 v5 - This data set, part of the NASA Making Earth System Data Records for Use in Research Environments (MEaSUREs) program, contains annual ice velocity mosaics for the Greenland Ice Sheet Velocities are derived from synthetic aperture radar (SAR) data, obtained by TerraSAR-X/TanDEM-X and Sentinel-1A and -1B, and from optical imagery acquired by Landsat 8 and Landsat 9",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/MEASURES/NSIDC-0725/5",
+        "Description": "NSIDC-0731 v5 - This data set, part of the NASA Making Earth System Data Records for Use in Research Environments (MEaSUREs) Program, contains monthly ice velocity mosaics for the Greenland Ice Sheet The data are derived from Synthetic Aperture Radar (SAR) data, obtained by TerraSAR-X/TanDEM-X and Sentinel-1A and -1B, and from optical imagery acquired by Landsat 8 and Landsat 9",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/MEASURES/NSIDC-0731/5",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/sentinel-1",
@@ -198915,6 +198834,87 @@
         "Name": "NASA sentinel-1 Project",
         "Description": "NSIDC-0766 v1 - This data set contains 6 and 12 day surface velocity estimates for the Greenland Ice Sheet and periphery derived from images acquired between 2015\u20132021 by the European Space Agency (ESA) Copernicus Sentinel-1A and Sentinel-1B satellites",
         "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/MEASURES/NSIDC-0766/1",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/sentinel-1",
+        "Contact": "https://earthdata.nasa.gov/contact",
+        "ManagedBy": "NASA",
+        "UpdateFrequency": "Varies by dataset",
+        "License": "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "elevation",
+            "ice",
+            "oceans",
+            "radar",
+            "satellite imagery",
+            "soil moisture"
+        ],
+        "Explore": null,
+        "RequesterPays": false,
+        "ControlledAccess": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials",
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NASA sentinel-1 Project",
+        "Description": "NSIDC-0478 v2 - This data set, part of the NASA Making Earth System Data Records for Use in Research Environments (MEaSUREs) program, contains seasonal (winter) ice sheet-wide velocity maps for Greenland The maps are derived from Interferometric Synthetic Aperture Radar (InSAR) data obtained by the Canadian Space Agency's (CSA) RADARSAT-1, the Japan Aerospace Exploration Agency's (JAXA) Advanced Land Observation Satellite (ALOS), and the German Aerospace Center's (DLR) TerraSAR-X/TanDEM-X (TSX/TDX) satellites, as well as from the European Space Agency's (ESA) C-band Synthetic Aperture Radar data from Cope",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/MEASURES/NSIDC-0478/2",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/sentinel-1",
+        "Contact": "https://earthdata.nasa.gov/contact",
+        "ManagedBy": "NASA",
+        "UpdateFrequency": "Varies by dataset",
+        "License": "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "elevation",
+            "ice",
+            "oceans",
+            "radar",
+            "satellite imagery",
+            "soil moisture"
+        ],
+        "Explore": null,
+        "RequesterPays": false,
+        "ControlledAccess": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials",
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NASA sentinel-1 Project",
+        "Description": "NSIDC-0766 v2 - This data set, part of the NASA Making Earth System Data Records for Use in Research Environments (MEaSUREs) Program, contains 6 and 12 day surface velocity estimates for the Greenland Ice Sheet and periphery Velocities are derived from images acquired by the European Space Agency (ESA) Copernicus Sentinel-1A and Sentinel-1B satellites",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/MEASURES/NSIDC-0766/2",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/sentinel-1",
+        "Contact": "https://earthdata.nasa.gov/contact",
+        "ManagedBy": "NASA",
+        "UpdateFrequency": "Varies by dataset",
+        "License": "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "elevation",
+            "ice",
+            "oceans",
+            "radar",
+            "satellite imagery",
+            "soil moisture"
+        ],
+        "Explore": null,
+        "RequesterPays": false,
+        "ControlledAccess": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials",
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NASA sentinel-1 Project",
+        "Description": "NSIDC-0642 v2 - This data set, part of the NASA Making Earth System Data Records for Use in Research Environments (MEaSUREs) program, consists of annual, digitized (polyline) ice front positions for 239 outlet glaciers in Greenland Ice front positions are derived from Sentinel-1A, Sentinel-1B, and RADARSAT-1 synthetic aperture radar (SAR) mosaics, plus imagery from Landsat 1 through Landsat 5 and Landsat 7 and Landsat 8",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/MEASURES/NSIDC-0642/2",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/sentinel-1",
@@ -198994,8 +198994,8 @@
     },
     {
         "Name": "NASA sentinel-1 Project",
-        "Description": "NSIDC-0478 v2 - This data set, part of the NASA Making Earth System Data Records for Use in Research Environments (MEaSUREs) program, contains seasonal (winter) ice sheet-wide velocity maps for Greenland The maps are derived from Interferometric Synthetic Aperture Radar (InSAR) data obtained by the Canadian Space Agency's (CSA) RADARSAT-1, the Japan Aerospace Exploration Agency's (JAXA) Advanced Land Observation Satellite (ALOS), and the German Aerospace Center's (DLR) TerraSAR-X/TanDEM-X (TSX/TDX) satellites, as well as from the European Space Agency's (ESA) C-band Synthetic Aperture Radar data from Cope",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/MEASURES/NSIDC-0478/2",
+        "Description": "NSIDC-0723 v4 - This data set, part of the NASA Making Earth System Data Records for Use in Research Environments (MEaSUREs) Program, consists of 6-day and 12-day 50 m resolution image mosaics of the Greenland coastline and ice sheet periphery The mosaics are derived from C-band Synthetic Aperture Radar (C-SAR) acquired by the Copernicus Sentinel-1A, -1B, and -1C satellites",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/MEASURES/NSIDC-0723/4",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/sentinel-1",
@@ -199012,28 +199012,6 @@
             "radar",
             "satellite imagery",
             "soil moisture"
-        ],
-        "Explore": null,
-        "RequesterPays": false,
-        "ControlledAccess": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials",
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NASA sentinel-2 Project",
-        "Description": "NSIDC-0801 v1 - This data set consists of velocity maps and error estimates for five surge-type glaciers: N\u00e0\u0142\u00f9d\u00e4y/Lowell Glacier, Canada; Medvezhiy Glacier, the Pamir mountains; South Rimo Glacier, the Karakoram; S\u00edt'' Kus\u00e1 Glacier, Alaska; and Aavatsmarkbreen Glacier, Spitsbergen, Svalbard The maps are generated using CautoRIFT, a pipeline that improves temporal coverage during periods of rapid glacier motion by adding pre-processed, daily high-resolution PlanetScope images and customized feature tracking parameters for each glacier to NASA''s autonomous Repeat Image Feature Tracking (autoRIFT) algorithm f",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/OTHR/NSIDC-0801/1",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://nsidc.org/data/nsidc-0777/versions/1",
-        "Contact": "https://earthdata.nasa.gov/contact",
-        "ManagedBy": "NASA",
-        "UpdateFrequency": "Varies by dataset",
-        "License": "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
-        "Tags": [
-            "aws-pds",
-            "ice",
-            "satellite imagery"
         ],
         "Explore": null,
         "RequesterPays": false,
@@ -199064,12 +199042,12 @@
         "Host": null
     },
     {
-        "Name": "NASA smap Project",
-        "Description": "SV12PLSM v1 - This data set contains soil moisture data obtained by the Passive Active L-band System (PALS) aircraft instrument The data were collected as part of SMAPVEX12, the Soil Moisture Active Passive Validation Experiment 2012",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLSM/1",
+        "Name": "NASA sentinel-2 Project",
+        "Description": "NSIDC-0801 v1 - This data set consists of velocity maps and error estimates for five surge-type glaciers: N\u00e0\u0142\u00f9d\u00e4y/Lowell Glacier, Canada; Medvezhiy Glacier, the Pamir mountains; South Rimo Glacier, the Karakoram; S\u00edt'' Kus\u00e1 Glacier, Alaska; and Aavatsmarkbreen Glacier, Spitsbergen, Svalbard The maps are generated using CautoRIFT, a pipeline that improves temporal coverage during periods of rapid glacier motion by adding pre-processed, daily high-resolution PlanetScope images and customized feature tracking parameters for each glacier to NASA''s autonomous Repeat Image Feature Tracking (autoRIFT) algorithm f",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/OTHR/NSIDC-0801/1",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
-        "Documentation": "https://nsidc.org/data/nsidc-0666/versions/1",
+        "Documentation": "https://nsidc.org/data/nsidc-0777/versions/1",
         "Contact": "https://earthdata.nasa.gov/contact",
         "ManagedBy": "NASA",
         "UpdateFrequency": "Varies by dataset",
@@ -199077,9 +199055,7 @@
         "Tags": [
             "aws-pds",
             "ice",
-            "land cover",
-            "radar",
-            "soil moisture"
+            "satellite imagery"
         ],
         "Explore": null,
         "RequesterPays": false,
@@ -199113,8 +199089,56 @@
     },
     {
         "Name": "NASA smap Project",
+        "Description": "SMAP_L4_C_ANC_PARAM v1 - This ancillary SMAP product contains assorted static ancillary parameters, such as reference grids and land cover classifications, also referred to as Plant Function Type (PFT) maps",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SMAP-ANC/SMAP_L4_C_ANC_PARAM/1",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://nsidc.org/data/nsidc-0666/versions/1",
+        "Contact": "https://earthdata.nasa.gov/contact",
+        "ManagedBy": "NASA",
+        "UpdateFrequency": "Varies by dataset",
+        "License": "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "ice",
+            "land cover",
+            "radar",
+            "soil moisture"
+        ],
+        "Explore": null,
+        "RequesterPays": false,
+        "ControlledAccess": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials",
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NASA smap Project",
         "Description": "NSIDC-0774 v1 - This data set contains twice-daily synthetic aperture radar (SAR) and enhanced-resolution scatterometer radar backscatter derived from SMAP radar data Data are available on the Northern Hemisphere, Southern Hemisphere, Temperate, and Mid-Latitude (sub-set of Global) EASE-Grid 20 projections and as either 25 km or 3125 km resolution grids",
         "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SMAP-Related/NSIDC-0774/1",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://nsidc.org/data/nsidc-0666/versions/1",
+        "Contact": "https://earthdata.nasa.gov/contact",
+        "ManagedBy": "NASA",
+        "UpdateFrequency": "Varies by dataset",
+        "License": "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "ice",
+            "land cover",
+            "radar",
+            "soil moisture"
+        ],
+        "Explore": null,
+        "RequesterPays": false,
+        "ControlledAccess": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials",
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NASA smap Project",
+        "Description": "SV12PLSM v1 - This data set contains soil moisture data obtained by the Passive Active L-band System (PALS) aircraft instrument The data were collected as part of SMAPVEX12, the Soil Moisture Active Passive Validation Experiment 2012",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLSM/1",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://nsidc.org/data/nsidc-0666/versions/1",
@@ -199185,8 +199209,8 @@
     },
     {
         "Name": "NASA smap Project",
-        "Description": "SMAP_L4_C_ANC_PARAM v1 - This ancillary SMAP product contains assorted static ancillary parameters, such as reference grids and land cover classifications, also referred to as Plant Function Type (PFT) maps",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SMAP-ANC/SMAP_L4_C_ANC_PARAM/1",
+        "Description": "SPL1CTB_E v004 - This enhanced Level-1C (L1C) product contains calibrated and geolocated brightness temperatures acquired by the Soil Moisture Active Passive (SMAP) radiometer during 6:00 am descending and 6:00 pm",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SMAP/SPL1CTB_E/004",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://nsidc.org/data/nsidc-0666/versions/1",
@@ -199209,32 +199233,8 @@
     },
     {
         "Name": "NASA smap Project",
-        "Description": "SPL3SMAP v003 - This Level-3 (L3) soil moisture product provides a daily composite of global land surface conditions retrieved by both the Soil Moisture Active Passive (SMAP) radar and radiometer SMAP L-band soil moisture data are resampled to an Earth-fixed, global, cylindrical 9 km Equal-Area Scalable Earth Grid, Version 20 (EASE-Grid 20)",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SMAP/SPL3SMAP/003",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://nsidc.org/data/nsidc-0666/versions/1",
-        "Contact": "https://earthdata.nasa.gov/contact",
-        "ManagedBy": "NASA",
-        "UpdateFrequency": "Varies by dataset",
-        "License": "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
-        "Tags": [
-            "aws-pds",
-            "ice",
-            "land cover",
-            "radar",
-            "soil moisture"
-        ],
-        "Explore": null,
-        "RequesterPays": false,
-        "ControlledAccess": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials",
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NASA smap Project",
-        "Description": "NSIDC-0666 v1 - This data set contains data obtained by the Passive Active L- and S-band (PALS) microwave aircraft instrument that are matched up with a variety of soil moisture campaign data The data were collected as part of four different campaigns: Southern Great Plains 1999 (SGP99), Cloud and Land Surface Interaction Campaign 2007 (CLASIC07), Soil Moisture Experiment 2002 (SMEX02), and the SMAP Validation Experiment 2008 (SMAPVEX08)",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SMAP-VAL/NSIDC-0666/1",
+        "Description": "SPL3FTA v003 - This Level-3 (L3) product provides a daily composite of Northern Hemisphere landscape freeze/thaw conditions retrieved by the Soil Moisture Active Passive (SMAP) radar from 6:00 am descending and 6:00 pm",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SMAP/SPL3FTA/003",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://nsidc.org/data/nsidc-0666/versions/1",
@@ -199329,8 +199329,8 @@
     },
     {
         "Name": "NASA smap Project",
-        "Description": "SPL1CTB_E v004 - This enhanced Level-1C (L1C) product contains calibrated and geolocated brightness temperatures acquired by the Soil Moisture Active Passive (SMAP) radiometer during 6:00 am descending and 6:00 pm",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SMAP/SPL1CTB_E/004",
+        "Description": "NSIDC-0666 v1 - This data set contains data obtained by the Passive Active L- and S-band (PALS) microwave aircraft instrument that are matched up with a variety of soil moisture campaign data The data were collected as part of four different campaigns: Southern Great Plains 1999 (SGP99), Cloud and Land Surface Interaction Campaign 2007 (CLASIC07), Soil Moisture Experiment 2002 (SMEX02), and the SMAP Validation Experiment 2008 (SMAPVEX08)",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SMAP-VAL/NSIDC-0666/1",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://nsidc.org/data/nsidc-0666/versions/1",
@@ -199353,8 +199353,8 @@
     },
     {
         "Name": "NASA smap Project",
-        "Description": "SPL3FTA v003 - This Level-3 (L3) product provides a daily composite of Northern Hemisphere landscape freeze/thaw conditions retrieved by the Soil Moisture Active Passive (SMAP) radar from 6:00 am descending and 6:00 pm",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SMAP/SPL3FTA/003",
+        "Description": "SPL3SMAP v003 - This Level-3 (L3) soil moisture product provides a daily composite of global land surface conditions retrieved by both the Soil Moisture Active Passive (SMAP) radar and radiometer SMAP L-band soil moisture data are resampled to an Earth-fixed, global, cylindrical 9 km Equal-Area Scalable Earth Grid, Version 20 (EASE-Grid 20)",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SMAP/SPL3SMAP/003",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://nsidc.org/data/nsidc-0666/versions/1",
@@ -199445,8 +199445,8 @@
     },
     {
         "Name": "NASA tempo Project",
-        "Description": "NmTHIRmtg-1T v1 - This data set consists of daily, global grayscale TIFF images measured in the 67 \u00b5m window (65 \u00b5m - 70 \u00b5m) and the 115 \u00b5m window (105 \u00b5m - 125 \u00b5m) by the Temperature-Humidity Infrared Radiometer (THIR) on board the Nimbus 7 satellite Each data granule is a daytime or nighttime global composite of all the swaths in a day",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/NIMBUS/NmTHIRmtg-1T/1",
+        "Description": "NmTHIR67-1T v1 - This data set consists of daily, global grayscale TIFF images derived from radiative temperatures measured in the 67 \u00b5m window (65 \u00b5m - 70 \u00b5m) These data were detected by the Temperature-Humidity Infrared Radiometer (THIR) on board the Nimbus 4, Nimbus 5, and Nimbus 6 satellites, respectively, during 1970-1971, 1973-1975, and 1975",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/NIMBUS/NmTHIR67-1T/1",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://nsidc.org/data/hma_mtli/versions/1",
@@ -199468,8 +199468,8 @@
     },
     {
         "Name": "NASA tempo Project",
-        "Description": "NmTHIR67-1T v1 - This data set consists of daily, global grayscale TIFF images derived from radiative temperatures measured in the 67 \u00b5m window (65 \u00b5m - 70 \u00b5m) These data were detected by the Temperature-Humidity Infrared Radiometer (THIR) on board the Nimbus 4, Nimbus 5, and Nimbus 6 satellites, respectively, during 1970-1971, 1973-1975, and 1975",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/NIMBUS/NmTHIR67-1T/1",
+        "Description": "NmTHIRmtg-1T v1 - This data set consists of daily, global grayscale TIFF images measured in the 67 \u00b5m window (65 \u00b5m - 70 \u00b5m) and the 115 \u00b5m window (105 \u00b5m - 125 \u00b5m) by the Temperature-Humidity Infrared Radiometer (THIR) on board the Nimbus 7 satellite Each data granule is a daytime or nighttime global composite of all the swaths in a day",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/NIMBUS/NmTHIRmtg-1T/1",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://nsidc.org/data/hma_mtli/versions/1",
@@ -199943,42 +199943,6 @@
     },
     {
         "Name": "NASA tes Project",
-        "Description": "SPL3SMP_E v006 - This enhanced Level-3 (L3) soil moisture product provides a composite of daily estimates of global land surface conditions retrieved by the Soil Moisture Active Passive (SMAP) radiometer This product is a daily composite of SMAP Level-2 (L2) soil moisture which is derived from SMAP Level-1C (L1C) interpolated brightness temperatures",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SMAP/SPL3SMP_E/006",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://nsidc.org/data/aq2_sm/versions/5",
-        "Contact": "https://earthdata.nasa.gov/contact",
-        "ManagedBy": "NASA",
-        "UpdateFrequency": "Varies by dataset",
-        "License": "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
-        "Tags": [
-            "aws-pds",
-            "carbon",
-            "climate",
-            "elevation",
-            "hdf",
-            "hdf5",
-            "hydrology",
-            "ice",
-            "land cover",
-            "lidar",
-            "netcdf",
-            "oceans",
-            "precipitation",
-            "radar",
-            "satellite imagery",
-            "soil moisture",
-            "weather"
-        ],
-        "Explore": null,
-        "RequesterPays": false,
-        "ControlledAccess": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials",
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NASA tes Project",
         "Description": "SPL1BTB v006 - This Level-1B (L1B) product provides calibrated estimates of time-ordered geolocated brightness temperatures measured by the Soil Moisture Active Passive (SMAP) passive microwave radiometer SMAP L-band brightness temperatures are referenced to the Earth's surface with undesired and erroneous radiometric sources removed",
         "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SMAP/SPL1BTB/006",
         "Region": "us-west-2",
@@ -200267,6 +200231,78 @@
     },
     {
         "Name": "NASA tes Project",
+        "Description": "SV16I_TPSM v1 - These data consist of calibrated soil moisture sensor measurements recorded by manual sampling teams at the field sites of SMAPVEX16-Iowa during two intensive observation periods in June and August of 2016 The sites were located throughout an experiment domain of about 30 km by 40 km approximately 30 km north of Ames, Iowa",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SMAP-VAL/SV16I_TPSM/1",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://nsidc.org/data/aq2_sm/versions/5",
+        "Contact": "https://earthdata.nasa.gov/contact",
+        "ManagedBy": "NASA",
+        "UpdateFrequency": "Varies by dataset",
+        "License": "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "carbon",
+            "climate",
+            "elevation",
+            "hdf",
+            "hdf5",
+            "hydrology",
+            "ice",
+            "land cover",
+            "lidar",
+            "netcdf",
+            "oceans",
+            "precipitation",
+            "radar",
+            "satellite imagery",
+            "soil moisture",
+            "weather"
+        ],
+        "Explore": null,
+        "RequesterPays": false,
+        "ControlledAccess": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials",
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NASA tes Project",
+        "Description": "SNEX17_SBR v1 - This data set consists of surface-based radiometer (SBR) brightness temperatures of the snow surface and vegetation at Grand Mesa, CO, USA, acquired during NASA's 2017 SnowEx campaign Four SBRs were deployed in the field and obtained measurements at 89, 37, 19, and 1067 GHz in both vertical (V-pol) and horizontal (H-pol) polarizations",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SNOWEX/SNEX17_SBR/1",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://nsidc.org/data/aq2_sm/versions/5",
+        "Contact": "https://earthdata.nasa.gov/contact",
+        "ManagedBy": "NASA",
+        "UpdateFrequency": "Varies by dataset",
+        "License": "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "carbon",
+            "climate",
+            "elevation",
+            "hdf",
+            "hdf5",
+            "hydrology",
+            "ice",
+            "land cover",
+            "lidar",
+            "netcdf",
+            "oceans",
+            "precipitation",
+            "radar",
+            "satellite imagery",
+            "soil moisture",
+            "weather"
+        ],
+        "Explore": null,
+        "RequesterPays": false,
+        "ControlledAccess": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials",
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NASA tes Project",
         "Description": "SNEX17_TLS_PC_CRREL v1 - This data set contains terrestrial LIDAR survey (TLS) point cloud data collected at Grand Mesa, Colorado as part of the 2017 SnowEx campaign Data were collected in the fall (September and October) and winter (February) seasons",
         "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SNOWEX/SNEX17_TLS_PC_CRREL/1",
         "Region": "us-west-2",
@@ -200339,80 +200375,8 @@
     },
     {
         "Name": "NASA tes Project",
-        "Description": "SNEX17_SnowPits v1 - This data set contains measurements of snow temperature, density, stratigraphy, grain size, wetness, depth, and snow water equivalent (SWE) for snow pits at two study sites in Colorado, USA: Grand Mesa and Senator Beck Basin Data were collected during the NASA SnowEx 2017 campaign",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SNOWEX/SNEX17_SnowPits/1",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://nsidc.org/data/aq2_sm/versions/5",
-        "Contact": "https://earthdata.nasa.gov/contact",
-        "ManagedBy": "NASA",
-        "UpdateFrequency": "Varies by dataset",
-        "License": "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
-        "Tags": [
-            "aws-pds",
-            "carbon",
-            "climate",
-            "elevation",
-            "hdf",
-            "hdf5",
-            "hydrology",
-            "ice",
-            "land cover",
-            "lidar",
-            "netcdf",
-            "oceans",
-            "precipitation",
-            "radar",
-            "satellite imagery",
-            "soil moisture",
-            "weather"
-        ],
-        "Explore": null,
-        "RequesterPays": false,
-        "ControlledAccess": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials",
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NASA tes Project",
         "Description": "HMA_DTE v1 - This data set includes spatially distributed estimates of the debris thickness and sub-debris melt enhancement factors for every debris-covered glacier in the Randolph Glacier Inventory Version 6, excluding the ice sheets and Antarctic Periphery The debris thickness estimates are derived using a novel approach that uses a combination of sub-debris melt inversion and surface temperature inversion methods",
         "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/HMA/HMA_DTE/1",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://nsidc.org/data/aq2_sm/versions/5",
-        "Contact": "https://earthdata.nasa.gov/contact",
-        "ManagedBy": "NASA",
-        "UpdateFrequency": "Varies by dataset",
-        "License": "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
-        "Tags": [
-            "aws-pds",
-            "carbon",
-            "climate",
-            "elevation",
-            "hdf",
-            "hdf5",
-            "hydrology",
-            "ice",
-            "land cover",
-            "lidar",
-            "netcdf",
-            "oceans",
-            "precipitation",
-            "radar",
-            "satellite imagery",
-            "soil moisture",
-            "weather"
-        ],
-        "Explore": null,
-        "RequesterPays": false,
-        "ControlledAccess": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials",
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NASA tes Project",
-        "Description": "SV16I_TPSM v1 - These data consist of calibrated soil moisture sensor measurements recorded by manual sampling teams at the field sites of SMAPVEX16-Iowa during two intensive observation periods in June and August of 2016 The sites were located throughout an experiment domain of about 30 km by 40 km approximately 30 km north of Ames, Iowa",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SMAP-VAL/SV16I_TPSM/1",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://nsidc.org/data/aq2_sm/versions/5",
@@ -200843,42 +200807,6 @@
     },
     {
         "Name": "NASA tes Project",
-        "Description": "NmTHIR67-3H v1 - This data set (NmTHIR67-3H) consists of daily, global composites of radiative temperatures measured in the 67 \u00b5m water vapor window (65 \u00b5m - 70 \u00b5m) by the Temperature-Humidity Infrared Radiometer (THIR) onboard the Nimbus 4 satellite The composites were constructed from Nimbus 4 THIR <a href=\"http://nsidcorg/data/nmthir67-1h/\">swath data</a> and show water vapor distribution in the upper troposphere and stratosphere",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/NIMBUS/NmTHIR67-3H/1",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://nsidc.org/data/aq2_sm/versions/5",
-        "Contact": "https://earthdata.nasa.gov/contact",
-        "ManagedBy": "NASA",
-        "UpdateFrequency": "Varies by dataset",
-        "License": "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
-        "Tags": [
-            "aws-pds",
-            "carbon",
-            "climate",
-            "elevation",
-            "hdf",
-            "hdf5",
-            "hydrology",
-            "ice",
-            "land cover",
-            "lidar",
-            "netcdf",
-            "oceans",
-            "precipitation",
-            "radar",
-            "satellite imagery",
-            "soil moisture",
-            "weather"
-        ],
-        "Explore": null,
-        "RequesterPays": false,
-        "ControlledAccess": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials",
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NASA tes Project",
         "Description": "SNEX17_TLS_PC_BSU_Raw v1 - This data set contains raw, unprocessed terrestrial laser scanner (TLS) point cloud data collected as part of the 2017 SnowEx campaign in Grand Mesa, Colorado Data were collected in the fall (September 2016) and winter (February 2017)",
         "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SNOWEX/SNEX17_TLS_PC_BSU_Raw/1",
         "Region": "us-west-2",
@@ -200915,8 +200843,8 @@
     },
     {
         "Name": "NASA tes Project",
-        "Description": "SNEX17_SBR v1 - This data set consists of surface-based radiometer (SBR) brightness temperatures of the snow surface and vegetation at Grand Mesa, CO, USA, acquired during NASA's 2017 SnowEx campaign Four SBRs were deployed in the field and obtained measurements at 89, 37, 19, and 1067 GHz in both vertical (V-pol) and horizontal (H-pol) polarizations",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SNOWEX/SNEX17_SBR/1",
+        "Description": "SPL3SMP_E v006 - This enhanced Level-3 (L3) soil moisture product provides a composite of daily estimates of global land surface conditions retrieved by the Soil Moisture Active Passive (SMAP) radiometer This product is a daily composite of SMAP Level-2 (L2) soil moisture which is derived from SMAP Level-1C (L1C) interpolated brightness temperatures",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SMAP/SPL3SMP_E/006",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://nsidc.org/data/aq2_sm/versions/5",
@@ -200951,8 +200879,80 @@
     },
     {
         "Name": "NASA tes Project",
-        "Description": "NmTHIR115-3H v1 - This data set (NmTHIR115-3H) consists of daily, global composites of radiative temperatures obtained in the 115 \u00b5m window (105 \u00b5m - 125 \u00b5m) by the Temperature-Humidity Infrared Radiometer (THIR) on board the Nimbus 4 satellite The composites were constructed from Nimbus 4 THIR <a href=\"http://nsidcorg/data/nmthir115-1h/\">swath data</a> and show cloud top or surface temperatures",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/NIMBUS/NmTHIR115-3H/1",
+        "Description": "SNEX17_TLS_PC_BSU v1 - This data set contains terrestrial laser scanner (TLS) point cloud data collected as part of the 2017 SnowEx campaign in Grand Mesa, Colorado Data were collected under both snow-off (September 2016) and snow-on (February 2017) conditions, at both open and forested locations",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SNOWEX/SNEX17_TLS_PC_BSU/1",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://nsidc.org/data/aq2_sm/versions/5",
+        "Contact": "https://earthdata.nasa.gov/contact",
+        "ManagedBy": "NASA",
+        "UpdateFrequency": "Varies by dataset",
+        "License": "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "carbon",
+            "climate",
+            "elevation",
+            "hdf",
+            "hdf5",
+            "hydrology",
+            "ice",
+            "land cover",
+            "lidar",
+            "netcdf",
+            "oceans",
+            "precipitation",
+            "radar",
+            "satellite imagery",
+            "soil moisture",
+            "weather"
+        ],
+        "Explore": null,
+        "RequesterPays": false,
+        "ControlledAccess": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials",
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NASA tes Project",
+        "Description": "SNEX17_TLI v1 - This data set contains time-lapse images Cameras were placed around Grand Mesa, CO at 34 sites and around Senator Beck Basin, CO at one site, coincident with other SnowEx 2017 measurements, including the TLS scans, sonic snow depth arrays, weather stations, and local scale observation sites",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SNOWEX/SNEX17_TLI/1",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://nsidc.org/data/aq2_sm/versions/5",
+        "Contact": "https://earthdata.nasa.gov/contact",
+        "ManagedBy": "NASA",
+        "UpdateFrequency": "Varies by dataset",
+        "License": "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "carbon",
+            "climate",
+            "elevation",
+            "hdf",
+            "hdf5",
+            "hydrology",
+            "ice",
+            "land cover",
+            "lidar",
+            "netcdf",
+            "oceans",
+            "precipitation",
+            "radar",
+            "satellite imagery",
+            "soil moisture",
+            "weather"
+        ],
+        "Explore": null,
+        "RequesterPays": false,
+        "ControlledAccess": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials",
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NASA tes Project",
+        "Description": "NmTHIR67-3G v1 - This data set (NmTHIR67-3G) consists of daily, global composites of radiative temperatures obtained in the 67 \u00b5m water vapor window (65 \u00b5m - 70 \u00b5m) by the Temperature-Humidity Infrared Radiometer (THIR) on board the Nimbus 4 satellite The THIR 67 \u00b5m window was used to map the water vapor distribution in the upper troposphere and stratosphere",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/NIMBUS/NmTHIR67-3G/1",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://nsidc.org/data/aq2_sm/versions/5",
@@ -201239,6 +201239,42 @@
     },
     {
         "Name": "NASA tes Project",
+        "Description": "NmAVCS3H v1 - This data set (NmAVCS3H) consists of daily, global image composites constructed from Nimbus 1 (1964) and Nimbus 2 (1966) Advanced Vidicon Camera System (AVCS) imagery Each composite is provided as a set of three HDF5-formatted files: separate North and South Polar projections in the 5 km Equal-Area Scalable Earth Grid (EASE-Grid) and an equatorial projection in a 10 km equidistant grid for the region between 60 N and 60 S",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/NIMBUS/NmAVCS3H/1",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://nsidc.org/data/aq2_sm/versions/5",
+        "Contact": "https://earthdata.nasa.gov/contact",
+        "ManagedBy": "NASA",
+        "UpdateFrequency": "Varies by dataset",
+        "License": "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "carbon",
+            "climate",
+            "elevation",
+            "hdf",
+            "hdf5",
+            "hydrology",
+            "ice",
+            "land cover",
+            "lidar",
+            "netcdf",
+            "oceans",
+            "precipitation",
+            "radar",
+            "satellite imagery",
+            "soil moisture",
+            "weather"
+        ],
+        "Explore": null,
+        "RequesterPays": false,
+        "ControlledAccess": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials",
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NASA tes Project",
         "Description": "SWOT_SIMULATED_NA_CONTINENT_L2_HR_RIVERSP_V1 v10 - This dataset contains a simulated river data product to be provided by the Surface Water and Ocean Topography (SWOT) mission SWOT will provide a global coverage but this dataset is a subset for the North America continent",
         "ARN": "arn:aws:s3:::podaac-ops-cumulus-protected/SWOT_SIMULATED_NA_CONTINENT_L2_HR_RIVERSP_V1",
         "Region": "us-west-2",
@@ -201347,6 +201383,42 @@
     },
     {
         "Name": "NASA tes Project",
+        "Description": "NmTHIR67-3H v1 - This data set (NmTHIR67-3H) consists of daily, global composites of radiative temperatures measured in the 67 \u00b5m water vapor window (65 \u00b5m - 70 \u00b5m) by the Temperature-Humidity Infrared Radiometer (THIR) onboard the Nimbus 4 satellite The composites were constructed from Nimbus 4 THIR <a href=\"http://nsidcorg/data/nmthir67-1h/\">swath data</a> and show water vapor distribution in the upper troposphere and stratosphere",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/NIMBUS/NmTHIR67-3H/1",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://nsidc.org/data/aq2_sm/versions/5",
+        "Contact": "https://earthdata.nasa.gov/contact",
+        "ManagedBy": "NASA",
+        "UpdateFrequency": "Varies by dataset",
+        "License": "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "carbon",
+            "climate",
+            "elevation",
+            "hdf",
+            "hdf5",
+            "hydrology",
+            "ice",
+            "land cover",
+            "lidar",
+            "netcdf",
+            "oceans",
+            "precipitation",
+            "radar",
+            "satellite imagery",
+            "soil moisture",
+            "weather"
+        ],
+        "Explore": null,
+        "RequesterPays": false,
+        "ControlledAccess": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials",
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NASA tes Project",
         "Description": "SWOT_POSTLAUNCH_L1_MOORING v1 - The SWOT Postlaunch Oceanography Field Campaign L1 Moorings collection provides the surface air pressure, GPS, and conductivity, temperature and depth (CTD) measurements from moorings at the L1 processing level The SWOT satellite mission launched in late 2022 and underwent a calibration and validation (cal/val) phase in 2023",
         "ARN": "arn:aws:s3:::podaac-ops-cumulus-protected/SWOT_POSTLAUNCH_L1_MOORING",
         "Region": "us-west-2",
@@ -201383,116 +201455,8 @@
     },
     {
         "Name": "NASA tes Project",
-        "Description": "NmTHIR67-3G v1 - This data set (NmTHIR67-3G) consists of daily, global composites of radiative temperatures obtained in the 67 \u00b5m water vapor window (65 \u00b5m - 70 \u00b5m) by the Temperature-Humidity Infrared Radiometer (THIR) on board the Nimbus 4 satellite The THIR 67 \u00b5m window was used to map the water vapor distribution in the upper troposphere and stratosphere",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/NIMBUS/NmTHIR67-3G/1",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://nsidc.org/data/aq2_sm/versions/5",
-        "Contact": "https://earthdata.nasa.gov/contact",
-        "ManagedBy": "NASA",
-        "UpdateFrequency": "Varies by dataset",
-        "License": "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
-        "Tags": [
-            "aws-pds",
-            "carbon",
-            "climate",
-            "elevation",
-            "hdf",
-            "hdf5",
-            "hydrology",
-            "ice",
-            "land cover",
-            "lidar",
-            "netcdf",
-            "oceans",
-            "precipitation",
-            "radar",
-            "satellite imagery",
-            "soil moisture",
-            "weather"
-        ],
-        "Explore": null,
-        "RequesterPays": false,
-        "ControlledAccess": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials",
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NASA tes Project",
-        "Description": "SMAP_L4_C_ANC_SOC_RST v1 - This ancillary SMAP product contains the yearly soil organic carbon (SOC) restart file This file contains the area density of SOC at the start of the year, which is used to calculate daily SOC based on defined deposition and decay rates",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SMAP-ANC/SMAP_L4_C_ANC_SOC_RST/1",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://nsidc.org/data/aq2_sm/versions/5",
-        "Contact": "https://earthdata.nasa.gov/contact",
-        "ManagedBy": "NASA",
-        "UpdateFrequency": "Varies by dataset",
-        "License": "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
-        "Tags": [
-            "aws-pds",
-            "carbon",
-            "climate",
-            "elevation",
-            "hdf",
-            "hdf5",
-            "hydrology",
-            "ice",
-            "land cover",
-            "lidar",
-            "netcdf",
-            "oceans",
-            "precipitation",
-            "radar",
-            "satellite imagery",
-            "soil moisture",
-            "weather"
-        ],
-        "Explore": null,
-        "RequesterPays": false,
-        "ControlledAccess": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials",
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NASA tes Project",
-        "Description": "SNEX17_TLI v1 - This data set contains time-lapse images Cameras were placed around Grand Mesa, CO at 34 sites and around Senator Beck Basin, CO at one site, coincident with other SnowEx 2017 measurements, including the TLS scans, sonic snow depth arrays, weather stations, and local scale observation sites",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SNOWEX/SNEX17_TLI/1",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://nsidc.org/data/aq2_sm/versions/5",
-        "Contact": "https://earthdata.nasa.gov/contact",
-        "ManagedBy": "NASA",
-        "UpdateFrequency": "Varies by dataset",
-        "License": "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
-        "Tags": [
-            "aws-pds",
-            "carbon",
-            "climate",
-            "elevation",
-            "hdf",
-            "hdf5",
-            "hydrology",
-            "ice",
-            "land cover",
-            "lidar",
-            "netcdf",
-            "oceans",
-            "precipitation",
-            "radar",
-            "satellite imagery",
-            "soil moisture",
-            "weather"
-        ],
-        "Explore": null,
-        "RequesterPays": false,
-        "ControlledAccess": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials",
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NASA tes Project",
-        "Description": "NmAVCS3H v1 - This data set (NmAVCS3H) consists of daily, global image composites constructed from Nimbus 1 (1964) and Nimbus 2 (1966) Advanced Vidicon Camera System (AVCS) imagery Each composite is provided as a set of three HDF5-formatted files: separate North and South Polar projections in the 5 km Equal-Area Scalable Earth Grid (EASE-Grid) and an equatorial projection in a 10 km equidistant grid for the region between 60 N and 60 S",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/NIMBUS/NmAVCS3H/1",
+        "Description": "SNEX21_TS_SP v1 - The data set is a time-series of snow pit measurements obtained by the SnowEx community during the 2021 field campaign Between November 2020 and May 2021 data from 247 snow pits were collected at 24 unique sites distributed over 4 states (CO, ID, MT, UT) throughout the Western United States",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SNOWEX/SNEX21_TS_SP/1",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://nsidc.org/data/aq2_sm/versions/5",
@@ -201851,8 +201815,8 @@
     },
     {
         "Name": "NASA tes Project",
-        "Description": "SNEX21_TS_SP v1 - The data set is a time-series of snow pit measurements obtained by the SnowEx community during the 2021 field campaign Between November 2020 and May 2021 data from 247 snow pits were collected at 24 unique sites distributed over 4 states (CO, ID, MT, UT) throughout the Western United States",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SNOWEX/SNEX21_TS_SP/1",
+        "Description": "NmTHIR115-3H v1 - This data set (NmTHIR115-3H) consists of daily, global composites of radiative temperatures obtained in the 115 \u00b5m window (105 \u00b5m - 125 \u00b5m) by the Temperature-Humidity Infrared Radiometer (THIR) on board the Nimbus 4 satellite The composites were constructed from Nimbus 4 THIR <a href=\"http://nsidcorg/data/nmthir115-1h/\">swath data</a> and show cloud top or surface temperatures",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/NIMBUS/NmTHIR115-3H/1",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://nsidc.org/data/aq2_sm/versions/5",
@@ -201887,8 +201851,44 @@
     },
     {
         "Name": "NASA tes Project",
-        "Description": "SNEX17_TLS_PC_BSU v1 - This data set contains terrestrial laser scanner (TLS) point cloud data collected as part of the 2017 SnowEx campaign in Grand Mesa, Colorado Data were collected under both snow-off (September 2016) and snow-on (February 2017) conditions, at both open and forested locations",
-        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SNOWEX/SNEX17_TLS_PC_BSU/1",
+        "Description": "SMAP_L4_C_ANC_SOC_RST v1 - This ancillary SMAP product contains the yearly soil organic carbon (SOC) restart file This file contains the area density of SOC at the start of the year, which is used to calculate daily SOC based on defined deposition and decay rates",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SMAP-ANC/SMAP_L4_C_ANC_SOC_RST/1",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://nsidc.org/data/aq2_sm/versions/5",
+        "Contact": "https://earthdata.nasa.gov/contact",
+        "ManagedBy": "NASA",
+        "UpdateFrequency": "Varies by dataset",
+        "License": "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "carbon",
+            "climate",
+            "elevation",
+            "hdf",
+            "hdf5",
+            "hydrology",
+            "ice",
+            "land cover",
+            "lidar",
+            "netcdf",
+            "oceans",
+            "precipitation",
+            "radar",
+            "satellite imagery",
+            "soil moisture",
+            "weather"
+        ],
+        "Explore": null,
+        "RequesterPays": false,
+        "ControlledAccess": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials",
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NASA tes Project",
+        "Description": "SNEX17_SnowPits v1 - This data set contains measurements of snow temperature, density, stratigraphy, grain size, wetness, depth, and snow water equivalent (SWE) for snow pits at two study sites in Colorado, USA: Grand Mesa and Senator Beck Basin Data were collected during the NASA SnowEx 2017 campaign",
+        "ARN": "arn:aws:s3:::nsidc-cumulus-prod-protected/SNOWEX/SNEX17_SnowPits/1",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://nsidc.org/data/aq2_sm/versions/5",
@@ -202339,6 +202339,31 @@
     },
     {
         "Name": "NEXRAD on AWS",
+        "Description": "Notifications for the Level III bucket",
+        "ARN": "arn:aws:sns:us-east-1:684042711724:NewNEXRADLevel3Object",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/noaa/noaa-nexrad",
+        "Contact": "support-level2@unidata.ucar.edu",
+        "ManagedBy": "[Unidata](https://www.unidata.ucar.edu/)",
+        "UpdateFrequency": "New Level II data is added as soon as it is available.",
+        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired.<br/> <br/>NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "earth observation",
+            "natural resource",
+            "weather",
+            "meteorological"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NEXRAD on AWS",
         "Description": "Notifications for the new Level II archival bucket",
         "ARN": "arn:aws:sns:us-east-1:684042711724:NewNEXRADLevel2Archive",
         "Region": "us-east-1",
@@ -202364,8 +202389,8 @@
     },
     {
         "Name": "NEXRAD on AWS",
-        "Description": "NEXRAD Level II real-time data",
-        "ARN": "arn:aws:s3:::unidata-nexrad-level2-chunks",
+        "Description": "NEXRAD Level III real-time select data",
+        "ARN": "arn:aws:s3:::unidata-nexrad-level3",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/noaa/noaa-nexrad",
@@ -202381,7 +202406,9 @@
             "weather",
             "meteorological"
         ],
-        "Explore": null,
+        "Explore": [
+            "[Browse Bucket](https://unidata-nexrad-level3.s3.amazonaws.com/index.html)"
+        ],
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -202389,10 +202416,10 @@
     },
     {
         "Name": "NEXRAD on AWS",
-        "Description": "Notifications for the Level III bucket",
-        "ARN": "arn:aws:sns:us-east-1:684042711724:NewNEXRADLevel3Object",
+        "Description": "NEXRAD Level II real-time data",
+        "ARN": "arn:aws:s3:::unidata-nexrad-level2-chunks",
         "Region": "us-east-1",
-        "Type": "SNS Topic",
+        "Type": "S3 Bucket",
         "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/noaa/noaa-nexrad",
         "Contact": "support-level2@unidata.ucar.edu",
         "ManagedBy": "[Unidata](https://www.unidata.ucar.edu/)",
@@ -202433,33 +202460,6 @@
         ],
         "Explore": [
             "[Browse Bucket](https://unidata-nexrad-level2.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NEXRAD on AWS",
-        "Description": "NEXRAD Level III real-time select data",
-        "ARN": "arn:aws:s3:::unidata-nexrad-level3",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/noaa/noaa-nexrad",
-        "Contact": "support-level2@unidata.ucar.edu",
-        "ManagedBy": "[Unidata](https://www.unidata.ucar.edu/)",
-        "UpdateFrequency": "New Level II data is added as soon as it is available.",
-        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired.<br/> <br/>NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "earth observation",
-            "natural resource",
-            "weather",
-            "meteorological"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://unidata-nexrad-level3.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -203052,8 +203052,8 @@
     },
     {
         "Name": "NOAA Atmospheric Climate Data Records",
-        "Description": "Total Solar Irradiance",
-        "ARN": "arn:aws:s3:::noaa-cdr-total-solar-irradiance-pds",
+        "Description": "Cloud Properties ISCCP",
+        "ARN": "arn:aws:s3:::noaa-cdr-cloud-properties-isccp-pds",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://www.ncei.noaa.gov/products/climate-data-records/atmospheric",
@@ -203070,7 +203070,7 @@
             "weather"
         ],
         "Explore": [
-            "[Browse Bucket](https://noaa-cdr-total-solar-irradiance-pds.s3.amazonaws.com/index.html)"
+            "[Browse Bucket](https://noaa-cdr-cloud-properties-isccp-pds.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -203098,6 +203098,33 @@
         ],
         "Explore": [
             "[Browse Bucket](https://noaa-cdr-hydrological-properties-pds.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Atmospheric Climate Data Records",
+        "Description": "Total Solar Irradiance",
+        "ARN": "arn:aws:s3:::noaa-cdr-total-solar-irradiance-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.ncei.noaa.gov/products/climate-data-records/atmospheric",
+        "Contact": "For questions regarding the specific CDR data holdings, please contact NCEI.SAT.INFO@NOAA.GOV.<br />For any questions regarding data delivery not associated with this platform or any general questions regarding the NOAA Open Data Dissemination Team (NODD) email us at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NOAA NODD team here: nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "Climate Data Records are updated independently. For update frequency for a specific CDR, please refer to the Climate Data Record website.",
+        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired. <br/> <br/> NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "sustainability",
+            "weather"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://noaa-cdr-total-solar-irradiance-pds.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -203187,33 +203214,6 @@
     },
     {
         "Name": "NOAA Atmospheric Climate Data Records",
-        "Description": "GPCP Precip Monthly",
-        "ARN": "arn:aws:s3:::noaa-cdr-precip-gpcp-monthly-pds",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.ncei.noaa.gov/products/climate-data-records/atmospheric",
-        "Contact": "For questions regarding the specific CDR data holdings, please contact NCEI.SAT.INFO@NOAA.GOV.<br />For any questions regarding data delivery not associated with this platform or any general questions regarding the NOAA Open Data Dissemination Team (NODD) email us at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NOAA NODD team here: nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Climate Data Records are updated independently. For update frequency for a specific CDR, please refer to the Climate Data Record website.",
-        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired. <br/> <br/> NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "sustainability",
-            "weather"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://noaa-cdr-precip-gpcp-monthly-pds.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA Atmospheric Climate Data Records",
         "Description": "Ocean Heat Content",
         "ARN": "arn:aws:s3:::noaa-cdr-ocean-heat-content-pds",
         "Region": "us-east-1",
@@ -203268,6 +203268,33 @@
     },
     {
         "Name": "NOAA Atmospheric Climate Data Records",
+        "Description": "GPCP Precip Monthly",
+        "ARN": "arn:aws:s3:::noaa-cdr-precip-gpcp-monthly-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.ncei.noaa.gov/products/climate-data-records/atmospheric",
+        "Contact": "For questions regarding the specific CDR data holdings, please contact NCEI.SAT.INFO@NOAA.GOV.<br />For any questions regarding data delivery not associated with this platform or any general questions regarding the NOAA Open Data Dissemination Team (NODD) email us at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NOAA NODD team here: nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "Climate Data Records are updated independently. For update frequency for a specific CDR, please refer to the Climate Data Record website.",
+        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired. <br/> <br/> NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "sustainability",
+            "weather"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://noaa-cdr-precip-gpcp-monthly-pds.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Atmospheric Climate Data Records",
         "Description": "GPCP Precip Daily",
         "ARN": "arn:aws:s3:::noaa-cdr-precip-gpcp-daily-pds",
         "Region": "us-east-1",
@@ -203314,33 +203341,6 @@
         ],
         "Explore": [
             "[Browse Bucket](https://noaa-cdr-precip-cmorph-pds.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA Atmospheric Climate Data Records",
-        "Description": "Cloud Properties Polar Orbiter",
-        "ARN": "arn:aws:s3:::noaa-cdr-cloud-properties-polar-orbiter-nasa-pds",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.ncei.noaa.gov/products/climate-data-records/atmospheric",
-        "Contact": "For questions regarding the specific CDR data holdings, please contact NCEI.SAT.INFO@NOAA.GOV.<br />For any questions regarding data delivery not associated with this platform or any general questions regarding the NOAA Open Data Dissemination Team (NODD) email us at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NOAA NODD team here: nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Climate Data Records are updated independently. For update frequency for a specific CDR, please refer to the Climate Data Record website.",
-        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired. <br/> <br/> NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "sustainability",
-            "weather"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://noaa-cdr-cloud-properties-polar-orbiter-nasa-pds.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -203457,8 +203457,8 @@
     },
     {
         "Name": "NOAA Atmospheric Climate Data Records",
-        "Description": "Cloud Properties ISCCP",
-        "ARN": "arn:aws:s3:::noaa-cdr-cloud-properties-isccp-pds",
+        "Description": "Cloud Properties Polar Orbiter",
+        "ARN": "arn:aws:s3:::noaa-cdr-cloud-properties-polar-orbiter-nasa-pds",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://www.ncei.noaa.gov/products/climate-data-records/atmospheric",
@@ -203475,7 +203475,7 @@
             "weather"
         ],
         "Explore": [
-            "[Browse Bucket](https://noaa-cdr-cloud-properties-isccp-pds.s3.amazonaws.com/index.html)"
+            "[Browse Bucket](https://noaa-cdr-cloud-properties-polar-orbiter-nasa-pds.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -203974,33 +203974,6 @@
     },
     {
         "Name": "NOAA Fundamental Climate Data Records (FCDR)",
-        "Description": "Water Vapor Brightness Temperature",
-        "ARN": "arn:aws:s3:::noaa-cdr-ir-water-vapor-brit-temp-pds",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.ncdc.noaa.gov/cdr",
-        "Contact": "For questions regarding the specific CDR data holdings, please contact NCEI.SAT.INFO@NOAA.GOV.<br />For any questions regarding data delivery not associated with this platform or any general questions regarding the NOAA Open Data Dissemination Team (NODD) email us at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team here: nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Climate Data Records are updated independently. For update frequency for a specific CDR, please refer to the Climate Data Record website.",
-        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired.<br/> <br/>NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "sustainability",
-            "weather"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://noaa-cdr-ir-water-vapor-brit-temp-pds.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA Fundamental Climate Data Records (FCDR)",
         "Description": "Polar Pathfinder",
         "ARN": "arn:aws:s3:::noaa-cdr-polar-pathfinder-fcdr-pds",
         "Region": "us-east-1",
@@ -204020,6 +203993,33 @@
         ],
         "Explore": [
             "[Browse Bucket](https://noaa-cdr-polar-pathfinder-fcdr-pds.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Fundamental Climate Data Records (FCDR)",
+        "Description": "Water Vapor Brightness Temperature",
+        "ARN": "arn:aws:s3:::noaa-cdr-ir-water-vapor-brit-temp-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.ncdc.noaa.gov/cdr",
+        "Contact": "For questions regarding the specific CDR data holdings, please contact NCEI.SAT.INFO@NOAA.GOV.<br />For any questions regarding data delivery not associated with this platform or any general questions regarding the NOAA Open Data Dissemination Team (NODD) email us at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team here: nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "Climate Data Records are updated independently. For update frequency for a specific CDR, please refer to the Climate Data Record website.",
+        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired.<br/> <br/>NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "sustainability",
+            "weather"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://noaa-cdr-ir-water-vapor-brit-temp-pds.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -208056,6 +208056,30 @@
     },
     {
         "Name": "NOAA Unified Forecast System (UFS) Land Data Assimilation (DA) System",
+        "Description": "New data notifications for UFS Land Data Assimilation (DA) System, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewUFSLANDDAObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://land-da.readthedocs.io/en/latest/",
+        "Contact": "For questions regarding data content or quality, visit https://github.com/NOAA-EPIC/land-offline_workflow/discussionsFor any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "These are stable datasets for use with the Land DA System. They will not be updated frequently. Additional data may be added with each subsequent Land DA release.",
+        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired.<br/> <br/>NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Unified Forecast System (UFS) Land Data Assimilation (DA) System",
         "Description": "Unified Forecast System (UFS) Land Data Assimilation (DA) System",
         "ARN": "arn:aws:s3:::noaa-ufs-land-da-pds",
         "Region": "us-east-1",
@@ -208075,30 +208099,6 @@
         "Explore": [
             "[Browse Bucket](https://noaa-ufs-land-da-pds.s3.amazonaws.com/index.html)"
         ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA Unified Forecast System (UFS) Land Data Assimilation (DA) System",
-        "Description": "New data notifications for UFS Land Data Assimilation (DA) System, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewUFSLANDDAObject",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://land-da.readthedocs.io/en/latest/",
-        "Contact": "For questions regarding data content or quality, visit https://github.com/NOAA-EPIC/land-offline_workflow/discussionsFor any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "These are stable datasets for use with the Land DA System. They will not be updated frequently. Additional data may be added with each subsequent Land DA release.",
-        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired.<br/> <br/>NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "weather"
-        ],
-        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -208288,30 +208288,6 @@
     },
     {
         "Name": "NOAA Wang Sheeley Arge (WSA) Enlil",
-        "Description": "New data notifications for NOAA WSA-Enlil Products, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSWPCWSAEnlilObject",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://www.swpc.noaa.gov/products/wsa-enlil-solar-wind-prediction",
-        "Contact": "For any questions regarding WSA-Ensil data, please contact Eric Adamson (eric.adamson@noaa.gov) For data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Only model output from model runs containing CMEs are provided here. As these runs are executed on demand, there is no regular update frequency.",
-        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired.<br/> <br/>NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
-        "Tags": [
-            "aws-pds",
-            "climate",
-            "meteorological",
-            "solar",
-            "weather"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA Wang Sheeley Arge (WSA) Enlil",
         "Description": "NOAA WSA-Enlil Products",
         "ARN": "arn:aws:s3:::noaa-wsa-enlil-pds",
         "Region": "us-east-1",
@@ -208331,6 +208307,30 @@
         "Explore": [
             "[Browse Bucket](https://noaa-wsa-enlil-pds.s3.amazonaws.com/index.html)"
         ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Wang Sheeley Arge (WSA) Enlil",
+        "Description": "New data notifications for NOAA WSA-Enlil Products, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSWPCWSAEnlilObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://www.swpc.noaa.gov/products/wsa-enlil-solar-wind-prediction",
+        "Contact": "For any questions regarding WSA-Ensil data, please contact Eric Adamson (eric.adamson@noaa.gov) For data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "Only model output from model runs containing CMEs are provided here. As these runs are executed on demand, there is no regular update frequency.",
+        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired.<br/> <br/>NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "climate",
+            "meteorological",
+            "solar",
+            "weather"
+        ],
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -208701,6 +208701,33 @@
     },
     {
         "Name": "NREL National Solar Radiation Database",
+        "Description": "NSRDB v3 typical global years (TGY",
+        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/v3/tgy/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://nsrdb.nrel.gov/",
+        "Contact": "nsrdb@nrel.gov",
+        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
+        "UpdateFrequency": "Annually",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "energy",
+            "geospatial",
+            "meteorological",
+            "solar"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=v3%2Ftgy%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL National Solar Radiation Database",
         "Description": "NSRDB 4km-10min data from the Himawari satellites starting in 2015 in HDF5",
         "ARN": "arn:aws:s3:::nrel-pds-nsrdb/himawari/",
         "Region": "us-west-2",
@@ -208755,33 +208782,6 @@
     },
     {
         "Name": "NREL National Solar Radiation Database",
-        "Description": "NSRDB 2km-5min data for the Contiguous United States (CONUS",
-        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/conus/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://nsrdb.nrel.gov/",
-        "Contact": "nsrdb@nrel.gov",
-        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
-        "UpdateFrequency": "Annually",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "energy",
-            "geospatial",
-            "meteorological",
-            "solar"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=conus%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL National Solar Radiation Database",
         "Description": "NSRDB 4km-15min data from the Meteosat satellites starting in 2017 in HDF5",
         "ARN": "arn:aws:s3:::nrel-pds-nsrdb/meteosat/",
         "Region": "us-west-2",
@@ -208809,8 +208809,8 @@
     },
     {
         "Name": "NREL National Solar Radiation Database",
-        "Description": "NSRDB synthetically downscaled 2km x 5min for Puerto Rico (1998-2017",
-        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/v3/puerto_rico/",
+        "Description": "NSRDB 2km-5min data for the Contiguous United States (CONUS",
+        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/conus/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://nsrdb.nrel.gov/",
@@ -208827,61 +208827,7 @@
             "solar"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=v3%2Fpuerto_rico%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL National Solar Radiation Database",
-        "Description": "NSRDB v3 typical global years (TGY",
-        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/v3/tgy/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://nsrdb.nrel.gov/",
-        "Contact": "nsrdb@nrel.gov",
-        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
-        "UpdateFrequency": "Annually",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "energy",
-            "geospatial",
-            "meteorological",
-            "solar"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=v3%2Ftgy%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL National Solar Radiation Database",
-        "Description": "NSRDB v3 4km x 30min data (1998-2018",
-        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/v3/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://nsrdb.nrel.gov/",
-        "Contact": "nsrdb@nrel.gov",
-        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
-        "UpdateFrequency": "Annually",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "energy",
-            "geospatial",
-            "meteorological",
-            "solar"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=v3%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=conus%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -208909,6 +208855,33 @@
         ],
         "Explore": [
             "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-hsds&prefix=nrel%2Fnsrdb%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL National Solar Radiation Database",
+        "Description": "NSRDB v3 4km x 30min data (1998-2018",
+        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/v3/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://nsrdb.nrel.gov/",
+        "Contact": "nsrdb@nrel.gov",
+        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
+        "UpdateFrequency": "Annually",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "energy",
+            "geospatial",
+            "meteorological",
+            "solar"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=v3%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -209024,6 +208997,58 @@
         "Host": null
     },
     {
+        "Name": "NREL National Solar Radiation Database",
+        "Description": "NSRDB synthetically downscaled 2km x 5min for Puerto Rico (1998-2017",
+        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/v3/puerto_rico/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://nsrdb.nrel.gov/",
+        "Contact": "nsrdb@nrel.gov",
+        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
+        "UpdateFrequency": "Annually",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "energy",
+            "geospatial",
+            "meteorological",
+            "solar"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=v3%2Fpuerto_rico%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset",
+        "Description": "Mid Atlantic three-dimensional planetary boundary layer (3D PBL) scheme wind resource data",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/mid_atlantic_3d_pbl/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=mid_atlantic_3d_pbl%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "NREL Wind Integration National Dataset",
         "Description": "Data for the Eastern Wind Integration Study (2004-2006",
         "ARN": "arn:aws:s3:::nrel-pds-wtk/eastern_wind/",
@@ -209075,56 +209100,6 @@
     },
     {
         "Name": "NREL Wind Integration National Dataset",
-        "Description": "Techno-economic subset of the WIND Toolkit by location in netCDF",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/wtk-techno-economic/pywtk-data/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
-        "Contact": "wind-toolkit@nrel.gov",
-        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
-        "UpdateFrequency": "As Needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "environmental",
-            "geospatial",
-            "meteorological"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=wtk-techno-economic%2Fpywtk-data%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL Wind Integration National Dataset",
-        "Description": "HSDS gridded WIND Toolkit domain",
-        "ARN": "arn:aws:s3:::nrel-pds-hsds/nrel/wtk-us.h5",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
-        "Contact": "wind-toolkit@nrel.gov",
-        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
-        "UpdateFrequency": "As Needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "environmental",
-            "geospatial",
-            "meteorological"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-hsds&prefix=nrel%2Fwtk-us.h5%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL Wind Integration National Dataset",
         "Description": "Source files for WIND Toolkit Canada (2007-2014)",
         "ARN": "arn:aws:s3:::nrel-pds-wtk/canada/",
         "Region": "us-west-2",
@@ -209150,8 +209125,8 @@
     },
     {
         "Name": "NREL Wind Integration National Dataset",
-        "Description": "Mid Atlantic three-dimensional planetary boundary layer (3D PBL) scheme wind resource data",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/mid_atlantic_3d_pbl/",
+        "Description": "Techno-economic subset of the WIND Toolkit by location in netCDF",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/wtk-techno-economic/pywtk-data/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
@@ -209166,7 +209141,32 @@
             "meteorological"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=mid_atlantic_3d_pbl%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=wtk-techno-economic%2Fpywtk-data%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset",
+        "Description": "Source files for wtk-us gridded (2007-2013)",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/wtk-us/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=wtk-us%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -209350,8 +209350,8 @@
     },
     {
         "Name": "NREL Wind Integration National Dataset",
-        "Description": "Source files for wtk-us gridded (2007-2013)",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/wtk-us/",
+        "Description": "HSDS gridded WIND Toolkit domain",
+        "ARN": "arn:aws:s3:::nrel-pds-hsds/nrel/wtk-us.h5",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
@@ -209366,7 +209366,7 @@
             "meteorological"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=wtk-us%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-hsds&prefix=nrel%2Fwtk-us.h5%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -209475,8 +209475,8 @@
     },
     {
         "Name": "NREL Wind Integration National Dataset",
-        "Description": "Mid Atlantic wind resource data with modeled wakes in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/NOW-WAKES_Mid_Atlantic/",
+        "Description": "California offshore wind resource data (2000-2022) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/now23_california/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
@@ -209491,7 +209491,7 @@
             "meteorological"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=NOW-WAKES_Mid_Atlantic%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=now23_california%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -209517,6 +209517,56 @@
         ],
         "Explore": [
             "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=pr100%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset",
+        "Description": "Mid Atlantic wind resource data with modeled wakes in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/NOW-WAKES_Mid_Atlantic/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=NOW-WAKES_Mid_Atlantic%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset",
+        "Description": "Super-Resolution for Renewable Energy Resource Data with Wind from Reanalysis (Sup3rWind)",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/sup3rwind/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=sup3rwind%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -209575,8 +209625,8 @@
     },
     {
         "Name": "NREL Wind Integration National Dataset",
-        "Description": "Super-Resolution for Renewable Energy Resource Data with Wind from Reanalysis (Sup3rWind)",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/sup3rwind/",
+        "Description": "South Atlantic offshore wind resource data (2000-2020) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/south_atlantic/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
@@ -209591,32 +209641,7 @@
             "meteorological"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=sup3rwind%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL Wind Integration National Dataset",
-        "Description": "California offshore wind resource data (2000-2022) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/now23_california/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
-        "Contact": "wind-toolkit@nrel.gov",
-        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
-        "UpdateFrequency": "As Needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "environmental",
-            "geospatial",
-            "meteorological"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=now23_california%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=south_atlantic)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -209642,31 +209667,6 @@
         ],
         "Explore": [
             "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=philippines%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL Wind Integration National Dataset",
-        "Description": "Gulf of Mexico wind resource data (2000-2020) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/gulf_of_mexico/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
-        "Contact": "wind-toolkit@nrel.gov",
-        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
-        "UpdateFrequency": "As Needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "environmental",
-            "geospatial",
-            "meteorological"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=gulf_of_mexico%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -209900,8 +209900,8 @@
     },
     {
         "Name": "NREL Wind Integration National Dataset",
-        "Description": "South Atlantic offshore wind resource data (2000-2020) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/south_atlantic/",
+        "Description": "Gulf of Mexico wind resource data (2000-2020) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/gulf_of_mexico/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
@@ -209916,7 +209916,7 @@
             "meteorological"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=south_atlantic)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=gulf_of_mexico%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -210231,8 +210231,8 @@
     },
     {
         "Name": "National Cancer Institute Imaging Data Commons (IDC) Collections",
-        "Description": "De-identified imaging data files in DICOM format distributed under CC-BY license This bucket is updated with each new IDC release, while maintaining the versioning of the previous releases, as described in the IDC Data versioning documentation The content of the buckets is organized",
-        "ARN": "arn:aws:s3:::idc-open-data",
+        "Description": "De-identified imaging data files in DICOM format distributed under CC-NC license Files in this bucket are covered by This bucket is updated with each new IDC release, while maintaining the versioning of the previous releases, as described in the IDC Data versioning documentation The content of the buckets is organized",
+        "ARN": "arn:aws:s3:::idc-open-data-cr",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://learn.canceridc.dev/",
@@ -210291,8 +210291,8 @@
     },
     {
         "Name": "National Cancer Institute Imaging Data Commons (IDC) Collections",
-        "Description": "De-identified imaging data files in DICOM format distributed under CC-NC license Files in this bucket are covered by This bucket is updated with each new IDC release, while maintaining the versioning of the previous releases, as described in the IDC Data versioning documentation The content of the buckets is organized",
-        "ARN": "arn:aws:s3:::idc-open-data-cr",
+        "Description": "De-identified imaging data files in DICOM format distributed under CC-BY license This bucket is updated with each new IDC release, while maintaining the versioning of the previous releases, as described in the IDC Data versioning documentation The content of the buckets is organized",
+        "ARN": "arn:aws:s3:::idc-open-data",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://learn.canceridc.dev/",
@@ -210314,36 +210314,6 @@
             "medical imaging"
         ],
         "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "National Climate Database (NCDB)",
-        "Description": "National Climate Database (NCDB)",
-        "ARN": "arn:aws:s3:::nrel-pds-ncdb/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://nsrdb.nrel.gov/",
-        "Contact": "Manajit.Sengupta@nrel.gov",
-        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
-        "UpdateFrequency": "As needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "energy",
-            "geospatial",
-            "meteorological",
-            "solar",
-            "climate projections",
-            "CMIP5",
-            "CMIP6"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-ncdb)"
-        ],
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -210403,6 +210373,36 @@
         ],
         "Explore": [
             "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-hsds&prefix=nrel%2Fncdb%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "National Climate Database (NCDB)",
+        "Description": "National Climate Database (NCDB)",
+        "ARN": "arn:aws:s3:::nrel-pds-ncdb/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://nsrdb.nrel.gov/",
+        "Contact": "Manajit.Sengupta@nrel.gov",
+        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
+        "UpdateFrequency": "As needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "energy",
+            "geospatial",
+            "meteorological",
+            "solar",
+            "climate projections",
+            "CMIP5",
+            "CMIP6"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-ncdb)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -210852,31 +210852,6 @@
     },
     {
         "Name": "ONS Open Data Portal",
-        "Description": "Reservoirs (PT-BR Reservat\u00f3rios)",
-        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
-        "Region": "sa-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dados.ons.org.br/dataset/",
-        "Contact": "dadosabertos@ons.org.br",
-        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
-        "UpdateFrequency": "diary",
-        "License": "CC-BY 4.0",
-        "Tags": [
-            "aws-pds",
-            "electricity",
-            "hydrography",
-            "energy"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/reservatorio)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "ONS Open Data Portal",
         "Description": "Wind and solar generation capacity factor (PT-BR Fator de capacidade de gera\u00e7\u00e3o e\u00f3lica e solar)",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
@@ -211077,7 +211052,7 @@
     },
     {
         "Name": "ONS Open Data Portal",
-        "Description": "Operation network transmission lines (PT-BR Linhas de transmiss\u00e3o da rede de opera\u00e7\u00e3o)",
+        "Description": "Daily affluent natural energy per reservoir (PT-BR Energia Natural Afluente (ENA) di\u00e1rio por reservat\u00f3rio)",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
@@ -211093,57 +211068,7 @@
             "energy"
         ],
         "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/linha-transmissao)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "ONS Open Data Portal",
-        "Description": "Installed generation capacity (PT-BR Capacidade instalada de gera\u00e7\u00e3o)",
-        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
-        "Region": "sa-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dados.ons.org.br/dataset/",
-        "Contact": "dadosabertos@ons.org.br",
-        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
-        "UpdateFrequency": "diary",
-        "License": "CC-BY 4.0",
-        "Tags": [
-            "aws-pds",
-            "electricity",
-            "hydrography",
-            "energy"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/capacidade-geracao)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "ONS Open Data Portal",
-        "Description": "Basic Network Reliability indicator: Robustness - RMAL, RMCS, RRB and RRBCS (PT-BR Indicador de Confiabilidade da Rede B\u00e1sica: Robustez - RMAL, RMCS, RRB and RRBCS)",
-        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
-        "Region": "sa-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dados.ons.org.br/dataset/",
-        "Contact": "dadosabertos@ons.org.br",
-        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
-        "UpdateFrequency": "diary",
-        "License": "CC-BY 4.0",
-        "Tags": [
-            "aws-pds",
-            "electricity",
-            "hydrography",
-            "energy"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/ind_confiarb_robustez)"
+            "[Browse Dataset](https://dados.ons.org.br/dataset/ena-diario-por-reservatorio)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -211377,6 +211302,31 @@
     },
     {
         "Name": "ONS Open Data Portal",
+        "Description": "Operation network transmission lines (PT-BR Linhas de transmiss\u00e3o da rede de opera\u00e7\u00e3o)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": [
+            "aws-pds",
+            "electricity",
+            "hydrography",
+            "energy"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/linha-transmissao)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal",
         "Description": "Power Plant Mode of Operation (PT-BR Modalidade de Opera\u00e7\u00e3o da Usina)",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
@@ -211394,56 +211344,6 @@
         ],
         "Explore": [
             "[Browse Dataset](https://dados.ons.org.br/dataset/modalidade-usina)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "ONS Open Data Portal",
-        "Description": "Basic network transformation capacity (PT-BR Capacidade de transforma\u00e7\u00e3o da rede b\u00e1sica)",
-        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
-        "Region": "sa-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dados.ons.org.br/dataset/",
-        "Contact": "dadosabertos@ons.org.br",
-        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
-        "UpdateFrequency": "diary",
-        "License": "CC-BY 4.0",
-        "Tags": [
-            "aws-pds",
-            "electricity",
-            "hydrography",
-            "energy"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/capacidade-transformacao)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "ONS Open Data Portal",
-        "Description": "Monthly energy charge (PT-BR Carga de energia mensal)",
-        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
-        "Region": "sa-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dados.ons.org.br/dataset/",
-        "Contact": "dadosabertos@ons.org.br",
-        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
-        "UpdateFrequency": "diary",
-        "License": "CC-BY 4.0",
-        "Tags": [
-            "aws-pds",
-            "electricity",
-            "hydrography",
-            "energy"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/carga-mensal)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -211477,7 +211377,7 @@
     },
     {
         "Name": "ONS Open Data Portal",
-        "Description": "Daily affluent natural energy per reservoir (PT-BR Energia Natural Afluente (ENA) di\u00e1rio por reservat\u00f3rio)",
+        "Description": "Basic Network Reliability indicator: Robustness - RMAL, RMCS, RRB and RRBCS (PT-BR Indicador de Confiabilidade da Rede B\u00e1sica: Robustez - RMAL, RMCS, RRB and RRBCS)",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
@@ -211493,7 +211393,82 @@
             "energy"
         ],
         "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/ena-diario-por-reservatorio)"
+            "[Browse Dataset](https://dados.ons.org.br/dataset/ind_confiarb_robustez)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal",
+        "Description": "Installed generation capacity (PT-BR Capacidade instalada de gera\u00e7\u00e3o)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": [
+            "aws-pds",
+            "electricity",
+            "hydrography",
+            "energy"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/capacidade-geracao)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal",
+        "Description": "Monthly energy charge (PT-BR Carga de energia mensal)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": [
+            "aws-pds",
+            "electricity",
+            "hydrography",
+            "energy"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/carga-mensal)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal",
+        "Description": "Daily energy charge (PT-BR Carga de Energia Di\u00e1ria)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": [
+            "aws-pds",
+            "electricity",
+            "hydrography",
+            "energy"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/carga-energia)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -211719,6 +211694,31 @@
         ],
         "Explore": [
             "[Browse Dataset](https://dados.ons.org.br/dataset/usina_conjunto)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal",
+        "Description": "Reservoirs (PT-BR Reservat\u00f3rios)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": [
+            "aws-pds",
+            "electricity",
+            "hydrography",
+            "energy"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/reservatorio)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -212052,7 +212052,7 @@
     },
     {
         "Name": "ONS Open Data Portal",
-        "Description": "Daily energy charge (PT-BR Carga de Energia Di\u00e1ria)",
+        "Description": "Basic network transformation capacity (PT-BR Capacidade de transforma\u00e7\u00e3o da rede b\u00e1sica)",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
@@ -212068,7 +212068,7 @@
             "energy"
         ],
         "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/carga-energia)"
+            "[Browse Dataset](https://dados.ons.org.br/dataset/capacidade-transformacao)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -219718,34 +219718,6 @@
     },
     {
         "Name": "Sentinel-3",
-        "Description": "Sentinel-3 Short Time Critical (STC) format",
-        "ARN": "arn:aws:s3:::meeo-s3/STC/",
-        "Region": "eu-central-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/Sentinel-5P/data-on-s3/blob/master/DocsForAws/Sentinel3Description.md",
-        "Contact": "sentinel3@meeo.it",
-        "ManagedBy": "[Meteorological Environmental Earth Observation](http://www.meeo.it/)",
-        "UpdateFrequency": "Daily",
-        "License": "https://sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice",
-        "Tags": [
-            "aws-pds",
-            "oceans",
-            "earth observation",
-            "environmental",
-            "geospatial",
-            "land",
-            "satellite imagery",
-            "cog",
-            "stac"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Sentinel-3",
         "Description": "Sentinel-3 Cloud Optimized GeoTIFF (COG) format",
         "ARN": "arn:aws:s3:::meeo-s3-cog/",
         "Region": "eu-central-1",
@@ -219769,6 +219741,34 @@
         "Explore": [
             "[STAC V1.0.0 endpoint](https://meeo-s3.s3.amazonaws.com/)"
         ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Sentinel-3",
+        "Description": "Sentinel-3 Short Time Critical (STC) format",
+        "ARN": "arn:aws:s3:::meeo-s3/STC/",
+        "Region": "eu-central-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/Sentinel-5P/data-on-s3/blob/master/DocsForAws/Sentinel3Description.md",
+        "Contact": "sentinel3@meeo.it",
+        "ManagedBy": "[Meteorological Environmental Earth Observation](http://www.meeo.it/)",
+        "UpdateFrequency": "Daily",
+        "License": "https://sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice",
+        "Tags": [
+            "aws-pds",
+            "oceans",
+            "earth observation",
+            "environmental",
+            "geospatial",
+            "land",
+            "satellite imagery",
+            "cog",
+            "stac"
+        ],
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -220457,34 +220457,6 @@
     },
     {
         "Name": "Somatic Mosaicism across Human Tissues (SMaHT)",
-        "Description": "Amazon SNS topic that publishes notifications when public access data is added for this dataset",
-        "ARN": "arn:aws:sns:us-east-1:874962955096:smaht-open-data-public-object_created",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://data.smaht.org/docs",
-        "Contact": "smhelp@hms-dbmi.atlassian.net",
-        "ManagedBy": "SMaHT Data Analysis Center (DAC)",
-        "UpdateFrequency": "Bi-annually",
-        "License": "NIH Genomic Data Sharing Policy - https://gdc.cancer.gov/access-data/data-access-policies",
-        "Tags": [
-            "biology",
-            "bioinformatics",
-            "genetic",
-            "genomic",
-            "imaging",
-            "life sciences",
-            "whole genome sequencing",
-            "bam",
-            "aws-pds"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Somatic Mosaicism across Human Tissues (SMaHT)",
         "Description": "SMaHT Open-Access Data - Publicly available data files without restriction, includingaligned reads from WGS and RNA-Seq, as well as variants identified from cell linesamples that are commercially available without restriction Somatic (non-inherited)variants from donor tissue samples are also open-access data",
         "ARN": "arn:aws:s3:::smaht-open-data-public",
         "Region": "us-east-1",
@@ -220536,6 +220508,34 @@
         "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs004194",
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Somatic Mosaicism across Human Tissues (SMaHT)",
+        "Description": "Amazon SNS topic that publishes notifications when public access data is added for this dataset",
+        "ARN": "arn:aws:sns:us-east-1:874962955096:smaht-open-data-public-object_created",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://data.smaht.org/docs",
+        "Contact": "smhelp@hms-dbmi.atlassian.net",
+        "ManagedBy": "SMaHT Data Analysis Center (DAC)",
+        "UpdateFrequency": "Bi-annually",
+        "License": "NIH Genomic Data Sharing Policy - https://gdc.cancer.gov/access-data/data-access-policies",
+        "Tags": [
+            "biology",
+            "bioinformatics",
+            "genetic",
+            "genomic",
+            "imaging",
+            "life sciences",
+            "whole genome sequencing",
+            "bam",
+            "aws-pds"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
     },
@@ -220803,6 +220803,30 @@
         "Host": null
     },
     {
+        "Name": "SpotLake AWS Spot Instance Dataset (2025 Sample)",
+        "Description": "Gzip-compressed CSV snapshots, one object per 10 minutes, under data/aws/2025/MM/DD/HH-MM-SScsvgz (UTC)",
+        "ARN": "arn:aws:s3:::spotlake-open-data",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/ddps-lab/spotlake-open-data",
+        "Contact": "spotlake@hanyang.ac.kr",
+        "ManagedBy": "[DDPS Lab, Hanyang University](https://ddps.cloud)",
+        "UpdateFrequency": "Not updated. Static sample covering calendar year 2025.",
+        "License": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "cloud computing",
+            "economics",
+            "infrastructure",
+            "csv"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "State of Colorado Basemap and Foundational Geospatial Data",
         "Description": "Notifications for new Colorado basemap and foundational geospatial data",
         "ARN": "arn:aws:sns:us-west-2:180294215083:colorado-public-geospatial-data-object_created",
@@ -221022,27 +221046,6 @@
     },
     {
         "Name": "Sudachi Language Resources",
-        "Description": "SudachiDict: Binary format of the mophological analysis dictionarieschiVe: Pretrained word embedding in various formats",
-        "ARN": "arn:aws:s3:::sudachi",
-        "Region": "ap-northeast-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://worksapplications.github.io/Sudachi/",
-        "Contact": "sudachi@worksap.co.jp",
-        "ManagedBy": "[Works Applications](https://www.worksap.co.jp/about/csr/nlp/)",
-        "UpdateFrequency": "The dictionaries are updated every few months to include neologism and fixes for the existing words.",
-        "License": "Apache-2.0",
-        "Tags": [
-            "aws-pds",
-            "natural language processing"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Sudachi Language Resources",
         "Description": "Cloudfront CDN mirror",
         "ARN": null,
         "Region": "ap-northeast-1",
@@ -221063,26 +221066,21 @@
         "Host": "d2ej7fkh96fzlu.cloudfront.net"
     },
     {
-        "Name": "Sup3rCC",
-        "Description": "Sup3rCC - CONUS - EC-Earth3-Veg - SSP245 - r1i1p1f1",
-        "ARN": "arn:aws:s3:::nrel-pds-sup3rcc/conus_ecearth3veg_ssp245_r1i1p1f1/",
-        "Region": "us-west-2",
+        "Name": "Sudachi Language Resources",
+        "Description": "SudachiDict: Binary format of the mophological analysis dictionarieschiVe: Pretrained word embedding in various formats",
+        "ARN": "arn:aws:s3:::sudachi",
+        "Region": "ap-northeast-1",
         "Type": "S3 Bucket",
-        "Documentation": "https://github.com/NREL/sup3r",
-        "Contact": "Grant Buster (grant.buster@nrel.gov)",
-        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
-        "UpdateFrequency": "Annual",
-        "License": "Creative Commons Attribution 4.0 United States License",
+        "Documentation": "https://worksapplications.github.io/Sudachi/",
+        "Contact": "sudachi@worksap.co.jp",
+        "ManagedBy": "[Works Applications](https://www.worksap.co.jp/about/csr/nlp/)",
+        "UpdateFrequency": "The dictionaries are updated every few months to include neologism and fixes for the existing words.",
+        "License": "Apache-2.0",
         "Tags": [
             "aws-pds",
-            "energy",
-            "solar",
-            "air temperature",
-            "climate model"
+            "natural language processing"
         ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=conus_ecearth3veg_ssp245_r1i1p1f1%2F)"
-        ],
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -221090,8 +221088,8 @@
     },
     {
         "Name": "Sup3rCC",
-        "Description": "Sup3rCC - CONUS - EC-Earth3-CC - Historical - r1i1p1f1",
-        "ARN": "arn:aws:s3:::nrel-pds-sup3rcc/conus_ecearth3cc_historical_r1i1p1f1/",
+        "Description": "Sup3rCC - CONUS - TaiESM1 - Historical - r1i1p1f1",
+        "ARN": "arn:aws:s3:::nrel-pds-sup3rcc/conus_taiesm1_historical_r1i1p1f1/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/NREL/sup3r",
@@ -221107,189 +221105,7 @@
             "climate model"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=conus_ecearth3cc_historical_r1i1p1f1%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Sup3rCC",
-        "Description": "Sup3rCC - CONUS - GFDL-CM4 - SSP245 - r1i1p1f1",
-        "ARN": "arn:aws:s3:::nrel-pds-sup3rcc/conus_gfdlcm4_ssp245_r1i1p1f1/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/NREL/sup3r",
-        "Contact": "Grant Buster (grant.buster@nrel.gov)",
-        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
-        "UpdateFrequency": "Annual",
-        "License": "Creative Commons Attribution 4.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "energy",
-            "solar",
-            "air temperature",
-            "climate model"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=conus_gfdlcm4_ssp245_r1i1p1f1%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Sup3rCC",
-        "Description": "Sup3rCC - CONUS - MPI-ESM12-HR - Historical - r1i1p1f1",
-        "ARN": "arn:aws:s3:::nrel-pds-sup3rcc/conus_mpiesm12hr_historical_r1i1p1f1/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/NREL/sup3r",
-        "Contact": "Grant Buster (grant.buster@nrel.gov)",
-        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
-        "UpdateFrequency": "Annual",
-        "License": "Creative Commons Attribution 4.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "energy",
-            "solar",
-            "air temperature",
-            "climate model"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=conus_mpiesm12hr_historical_r1i1p1f1%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Sup3rCC",
-        "Description": "Sup3rCC - CONUS - EC-Earth3 - SSP585 - r1i1p1f1",
-        "ARN": "arn:aws:s3:::nrel-pds-sup3rcc/conus_ecearth3_ssp585_r1i1p1f1%2F/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/NREL/sup3r",
-        "Contact": "Grant Buster (grant.buster@nrel.gov)",
-        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
-        "UpdateFrequency": "Annual",
-        "License": "Creative Commons Attribution 4.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "energy",
-            "solar",
-            "air temperature",
-            "climate model"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=conus_ecearth3_ssp585_r1i1p1f1%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Sup3rCC",
-        "Description": "Sup3rCC - CONUS - MPI-ESM12-HR - SSP245 - r1i1p1f1",
-        "ARN": "arn:aws:s3:::nrel-pds-sup3rcc/conus_mpiesm12hr_ssp245_r1i1p1f1/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/NREL/sup3r",
-        "Contact": "Grant Buster (grant.buster@nrel.gov)",
-        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
-        "UpdateFrequency": "Annual",
-        "License": "Creative Commons Attribution 4.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "energy",
-            "solar",
-            "air temperature",
-            "climate model"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=conus_mpiesm12hr_ssp245_r1i1p1f1%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Sup3rCC",
-        "Description": "Sup3rCC - CONUS - EC-Earth3-Veg - Historical - r1i1p1f1",
-        "ARN": "arn:aws:s3:::nrel-pds-sup3rcc/conus_ecearth3veg_historical_r1i1p1f1/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/NREL/sup3r",
-        "Contact": "Grant Buster (grant.buster@nrel.gov)",
-        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
-        "UpdateFrequency": "Annual",
-        "License": "Creative Commons Attribution 4.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "energy",
-            "solar",
-            "air temperature",
-            "climate model"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=conus_ecearth3veg_historical_r1i1p1f1%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Sup3rCC",
-        "Description": "Sup3rCC",
-        "ARN": "arn:aws:s3:::nrel-pds-sup3rcc/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/NREL/sup3r",
-        "Contact": "Grant Buster (grant.buster@nrel.gov)",
-        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
-        "UpdateFrequency": "Annual",
-        "License": "Creative Commons Attribution 4.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "energy",
-            "solar",
-            "air temperature",
-            "climate model"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Sup3rCC",
-        "Description": "Sup3rCC - CONUS - MRI-ESM20 - Historical - r1i1p1f1",
-        "ARN": "arn:aws:s3:::nrel-pds-sup3rcc/conus_mriesm20_historical_r1i1p1f1/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/NREL/sup3r",
-        "Contact": "Grant Buster (grant.buster@nrel.gov)",
-        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
-        "UpdateFrequency": "Annual",
-        "License": "Creative Commons Attribution 4.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "energy",
-            "solar",
-            "air temperature",
-            "climate model"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=conus_mriesm20_historical_r1i1p1f1%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=conus_taiesm1_historical_r1i1p1f1%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -221324,8 +221140,8 @@
     },
     {
         "Name": "Sup3rCC",
-        "Description": "Sup3rCC - CONUS - TaiESM1 - Historical - r1i1p1f1",
-        "ARN": "arn:aws:s3:::nrel-pds-sup3rcc/conus_taiesm1_historical_r1i1p1f1/",
+        "Description": "Sup3rCC - CONUS - MRI-ESM20 - Historical - r1i1p1f1",
+        "ARN": "arn:aws:s3:::nrel-pds-sup3rcc/conus_mriesm20_historical_r1i1p1f1/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/NREL/sup3r",
@@ -221341,7 +221157,137 @@
             "climate model"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=conus_taiesm1_historical_r1i1p1f1%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=conus_mriesm20_historical_r1i1p1f1%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Sup3rCC",
+        "Description": "Sup3rCC",
+        "ARN": "arn:aws:s3:::nrel-pds-sup3rcc/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/NREL/sup3r",
+        "Contact": "Grant Buster (grant.buster@nrel.gov)",
+        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
+        "UpdateFrequency": "Annual",
+        "License": "Creative Commons Attribution 4.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "energy",
+            "solar",
+            "air temperature",
+            "climate model"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Sup3rCC",
+        "Description": "Sup3rCC - CONUS - EC-Earth3-Veg - SSP245 - r1i1p1f1",
+        "ARN": "arn:aws:s3:::nrel-pds-sup3rcc/conus_ecearth3veg_ssp245_r1i1p1f1/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/NREL/sup3r",
+        "Contact": "Grant Buster (grant.buster@nrel.gov)",
+        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
+        "UpdateFrequency": "Annual",
+        "License": "Creative Commons Attribution 4.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "energy",
+            "solar",
+            "air temperature",
+            "climate model"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=conus_ecearth3veg_ssp245_r1i1p1f1%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Sup3rCC",
+        "Description": "Sup3rCC - CONUS - EC-Earth3 - SSP585 - r1i1p1f1",
+        "ARN": "arn:aws:s3:::nrel-pds-sup3rcc/conus_ecearth3_ssp585_r1i1p1f1%2F/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/NREL/sup3r",
+        "Contact": "Grant Buster (grant.buster@nrel.gov)",
+        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
+        "UpdateFrequency": "Annual",
+        "License": "Creative Commons Attribution 4.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "energy",
+            "solar",
+            "air temperature",
+            "climate model"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=conus_ecearth3_ssp585_r1i1p1f1%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Sup3rCC",
+        "Description": "Sup3rCC - CONUS - EC-Earth3-CC - Historical - r1i1p1f1",
+        "ARN": "arn:aws:s3:::nrel-pds-sup3rcc/conus_ecearth3cc_historical_r1i1p1f1/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/NREL/sup3r",
+        "Contact": "Grant Buster (grant.buster@nrel.gov)",
+        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
+        "UpdateFrequency": "Annual",
+        "License": "Creative Commons Attribution 4.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "energy",
+            "solar",
+            "air temperature",
+            "climate model"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=conus_ecearth3cc_historical_r1i1p1f1%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Sup3rCC",
+        "Description": "Sup3rCC - CONUS - MPI-ESM12-HR - Historical - r1i1p1f1",
+        "ARN": "arn:aws:s3:::nrel-pds-sup3rcc/conus_mpiesm12hr_historical_r1i1p1f1/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/NREL/sup3r",
+        "Contact": "Grant Buster (grant.buster@nrel.gov)",
+        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
+        "UpdateFrequency": "Annual",
+        "License": "Creative Commons Attribution 4.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "energy",
+            "solar",
+            "air temperature",
+            "climate model"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=conus_mpiesm12hr_historical_r1i1p1f1%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -221376,8 +221322,8 @@
     },
     {
         "Name": "Sup3rCC",
-        "Description": "Sup3rCC Generative Models",
-        "ARN": "arn:aws:s3:::nrel-pds-sup3rcc/models/",
+        "Description": "Sup3rCC - CONUS - EC-Earth3-Veg - Historical - r1i1p1f1",
+        "ARN": "arn:aws:s3:::nrel-pds-sup3rcc/conus_ecearth3veg_historical_r1i1p1f1/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/NREL/sup3r",
@@ -221393,7 +221339,7 @@
             "climate model"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=models%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=conus_ecearth3veg_historical_r1i1p1f1%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -221420,6 +221366,84 @@
         ],
         "Explore": [
             "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=conus_gfdlcm4_historical_r1i1p1f1%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Sup3rCC",
+        "Description": "Sup3rCC - CONUS - MPI-ESM12-HR - SSP245 - r1i1p1f1",
+        "ARN": "arn:aws:s3:::nrel-pds-sup3rcc/conus_mpiesm12hr_ssp245_r1i1p1f1/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/NREL/sup3r",
+        "Contact": "Grant Buster (grant.buster@nrel.gov)",
+        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
+        "UpdateFrequency": "Annual",
+        "License": "Creative Commons Attribution 4.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "energy",
+            "solar",
+            "air temperature",
+            "climate model"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=conus_mpiesm12hr_ssp245_r1i1p1f1%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Sup3rCC",
+        "Description": "Sup3rCC Generative Models",
+        "ARN": "arn:aws:s3:::nrel-pds-sup3rcc/models/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/NREL/sup3r",
+        "Contact": "Grant Buster (grant.buster@nrel.gov)",
+        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
+        "UpdateFrequency": "Annual",
+        "License": "Creative Commons Attribution 4.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "energy",
+            "solar",
+            "air temperature",
+            "climate model"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=models%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Sup3rCC",
+        "Description": "Sup3rCC - CONUS - GFDL-CM4 - SSP245 - r1i1p1f1",
+        "ARN": "arn:aws:s3:::nrel-pds-sup3rcc/conus_gfdlcm4_ssp245_r1i1p1f1/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/NREL/sup3r",
+        "Contact": "Grant Buster (grant.buster@nrel.gov)",
+        "ManagedBy": "[National Laboratory of the Rockies](https://www.nrel.gov/)",
+        "UpdateFrequency": "Annual",
+        "License": "Creative Commons Attribution 4.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "energy",
+            "solar",
+            "air temperature",
+            "climate model"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=conus_gfdlcm4_ssp245_r1i1p1f1%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -221982,34 +222006,6 @@
     },
     {
         "Name": "Thal-Kak Multiple Sequence Alignment Databases",
-        "Description": "Notifications for new Thal-Kak Multiple Sequence Alignment Databases data",
-        "ARN": "arn:aws:sns:us-east-1:029678959616:thal-kak-msa-object_created",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://github.com/CSSB-SNU/Thal-Kak/tree/main/aws_open_data",
-        "Contact": "https://github.com/CSSB-SNU/Thal-Kak/issues",
-        "ManagedBy": "[CSSB, Seoul National University](https://biosci.snu.ac.kr/cssb)",
-        "UpdateFrequency": "Irregularly. New releases are added as new archives.",
-        "License": "Each database carries the license of the source it derives from; no database mixes sources.[LICENSE.txt](https://thal-kak-msa.s3.amazonaws.com/LICENSE.txt) at the bucket root is the fullrecord of upstream licenses, attribution, citation and changes.| Archives | License | Source || --- | --- | --- || hhblits/uniref100_2026_01 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | UniProt UniRef100, release 2026_01 || mmseqs/bfd_reduced | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | BFD reduced subset, via the AlphaFold databases || mmseqs/mgnify_clusters, hhblits/mgnify_clusters | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | MGnify protein database, release 2024_04 || mmseqs/envhog_std, hhblits/envhog | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | EnVhogDB || mmseqs/logan_human, hhblits/logan_human, hhblits/logan_nonhuman | No license is granted. [NCBI Policy](https://www.ncbi.nlm.nih.gov/home/about/policies/) and [NIH Genomic Data Sharing Policy](https://osp.od.nih.gov/scientific-sharing/genomic-data-sharing/) | Logan v1 (SRA cutoff 2023-12-10) |",
-        "Tags": [
-            "aws-pds",
-            "bioinformatics",
-            "biomolecular modeling",
-            "life sciences",
-            "metagenomics",
-            "msa",
-            "protein",
-            "protein folding",
-            "structural biology"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Thal-Kak Multiple Sequence Alignment Databases",
         "Description": "MMseqs2 expandable profile databases, one tarzst archive per database (mgnify_clusters, envhog_std, bfd_reduced, logan_human) Each archive holds four MMseqs2 databases; build the idx search index after extraction",
         "ARN": "arn:aws:s3:::thal-kak-msa/mmseqs/",
         "Region": "us-east-1",
@@ -222042,6 +222038,34 @@
         "ARN": "arn:aws:s3:::thal-kak-msa/hhblits/",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
+        "Documentation": "https://github.com/CSSB-SNU/Thal-Kak/tree/main/aws_open_data",
+        "Contact": "https://github.com/CSSB-SNU/Thal-Kak/issues",
+        "ManagedBy": "[CSSB, Seoul National University](https://biosci.snu.ac.kr/cssb)",
+        "UpdateFrequency": "Irregularly. New releases are added as new archives.",
+        "License": "Each database carries the license of the source it derives from; no database mixes sources.[LICENSE.txt](https://thal-kak-msa.s3.amazonaws.com/LICENSE.txt) at the bucket root is the fullrecord of upstream licenses, attribution, citation and changes.| Archives | License | Source || --- | --- | --- || hhblits/uniref100_2026_01 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | UniProt UniRef100, release 2026_01 || mmseqs/bfd_reduced | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | BFD reduced subset, via the AlphaFold databases || mmseqs/mgnify_clusters, hhblits/mgnify_clusters | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | MGnify protein database, release 2024_04 || mmseqs/envhog_std, hhblits/envhog | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | EnVhogDB || mmseqs/logan_human, hhblits/logan_human, hhblits/logan_nonhuman | No license is granted. [NCBI Policy](https://www.ncbi.nlm.nih.gov/home/about/policies/) and [NIH Genomic Data Sharing Policy](https://osp.od.nih.gov/scientific-sharing/genomic-data-sharing/) | Logan v1 (SRA cutoff 2023-12-10) |",
+        "Tags": [
+            "aws-pds",
+            "bioinformatics",
+            "biomolecular modeling",
+            "life sciences",
+            "metagenomics",
+            "msa",
+            "protein",
+            "protein folding",
+            "structural biology"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Thal-Kak Multiple Sequence Alignment Databases",
+        "Description": "Notifications for new Thal-Kak Multiple Sequence Alignment Databases data",
+        "ARN": "arn:aws:sns:us-east-1:029678959616:thal-kak-msa-object_created",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
         "Documentation": "https://github.com/CSSB-SNU/Thal-Kak/tree/main/aws_open_data",
         "Contact": "https://github.com/CSSB-SNU/Thal-Kak/issues",
         "ManagedBy": "[CSSB, Seoul National University](https://biosci.snu.ac.kr/cssb)",
@@ -222286,10 +222310,10 @@
     },
     {
         "Name": "The Impact of Variation on Function Consortium (IGVF)",
-        "Description": "Notifications for new IGVF data",
-        "ARN": "arn:aws:sns:us-west-2:407227577691:igvf-public-object_created",
+        "Description": "Released and Archived IGVF Data Files",
+        "ARN": "arn:aws:s3:::igvf-public",
         "Region": "us-west-2",
-        "Type": "SNS Topic",
+        "Type": "S3 Bucket",
         "Documentation": "https://data.igvf.org/general-help",
         "Contact": "igvf-portal-help@lists.stanford.edu",
         "ManagedBy": "IGVF Data Administration and Coordination Center at Stanford University",
@@ -222311,10 +222335,10 @@
     },
     {
         "Name": "The Impact of Variation on Function Consortium (IGVF)",
-        "Description": "Released and Archived IGVF Data Files",
-        "ARN": "arn:aws:s3:::igvf-public",
+        "Description": "Notifications for new IGVF data",
+        "ARN": "arn:aws:sns:us-west-2:407227577691:igvf-public-object_created",
         "Region": "us-west-2",
-        "Type": "S3 Bucket",
+        "Type": "SNS Topic",
         "Documentation": "https://data.igvf.org/general-help",
         "Contact": "igvf-portal-help@lists.stanford.edu",
         "ManagedBy": "IGVF Data Administration and Coordination Center at Stanford University",
@@ -224995,8 +225019,8 @@
     },
     {
         "Name": "Wind AI Bench",
-        "Description": "Wind AI Bench Flow Redirection and Induction in Steady State (FLORIS) Wind Plant Power Production Data Sets] (https://dataopeneiorg/submissions/5884)",
-        "ARN": "arn:aws:s3:::nrel-pds-windai/wind_plant_power/floris/",
+        "Description": "Wind AI Bench Airfoil Computational Fluid Dynamics (CFD) - 2k Shapes Data Sets",
+        "ARN": "arn:aws:s3:::nrel-pds-windai/aerodynamic_shapes/2D/2K_airfoils/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/NREL/windAI_bench",
@@ -225011,7 +225035,7 @@
             "machine learning"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-windai&prefix=wind_plant_power%2Ffloris%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-windai&prefix=aerodynamic_shapes%2F2D%2F2k_airfoils%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -225045,8 +225069,8 @@
     },
     {
         "Name": "Wind AI Bench",
-        "Description": "Wind AI Bench Airfoil Computational Fluid Dynamics (CFD) - 2k Shapes Data Sets",
-        "ARN": "arn:aws:s3:::nrel-pds-windai/aerodynamic_shapes/2D/2K_airfoils/",
+        "Description": "Wind AI Bench Flow Redirection and Induction in Steady State (FLORIS) Wind Plant Power Production Data Sets] (https://dataopeneiorg/submissions/5884)",
+        "ARN": "arn:aws:s3:::nrel-pds-windai/wind_plant_power/floris/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/NREL/windAI_bench",
@@ -225061,7 +225085,7 @@
             "machine learning"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-windai&prefix=aerodynamic_shapes%2F2D%2F2k_airfoils%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-windai&prefix=wind_plant_power%2Ffloris%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
